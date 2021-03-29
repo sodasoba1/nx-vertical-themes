@@ -83,7 +83,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						},
@@ -146,7 +146,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						},
@@ -282,7 +282,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						}
@@ -294,7 +294,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						}
@@ -306,7 +306,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						}
@@ -318,7 +318,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						}
@@ -330,7 +330,7 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"10"
+								"0"
 							],
 							"type": 2
 						}
@@ -402,7 +402,7 @@
 				{
 					"PaneName": "N_ScrollArea",
 					"Position": {
-						"X": 55.0,
+						"X": 27.5,
 						"Y": -84.0
 					},
 					"Scale": {
@@ -417,7 +417,7 @@
 				{
 					"PaneName": "N_ScrollWindow",
 					"Position": {
-						"X": 61.0,
+						"X": 30.5,
 						"Y": -84.0
 					},
 					"Size": {
@@ -428,18 +428,22 @@
 				{
 					"PaneName": "N_GameRoot",
 					"Position": {
-						"X": 110.0
+						"X": 55
 					}
 				},
 				{
 					"PaneName": "N_System",
 					"Position": {
-						"X": -585.0,
+						"X": -630.0,
 						"Y": -305.0
 					},
 					"Size": {
 						"X": 110.0,
 						"Y": 80.0
+					},
+										"Scale": {
+						"X": 0.65,
+						"Y": 0.65
 					}
 				},
 				{
@@ -471,7 +475,7 @@
 				{
 					"PaneName": "N_Game",
 					"Position": {
-						"Y": 140
+						"Y": 70
 					}
 				},
 				{
