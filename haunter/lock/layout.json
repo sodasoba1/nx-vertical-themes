@@ -1,0 +1,124 @@
+{
+	"PatchName": "Simple Clean LockScreen",
+	"AuthorName": "Zhi",
+	"TargetName": "Entrance.szs",
+	"ID": "Themezer_Custom:534124c5-73f5-4588-a4b1-35be697ca65f",
+	"Files": [
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_CntL",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_CntRMain",
+					"Position": {
+						"X": 3000.0,
+						"Y": -299.0
+					},
+					"Scale": {
+						"X": 0.4,
+						"Y": 0.4
+					}
+				},
+				{
+					"PaneName": "N_News",
+					"Position": {
+						"X": -1000.0,
+						"Y": 36.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Lock",
+					"Position": {
+						"X": -2000.0,
+						"Y": -290.0
+					},
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					}
+				},
+				{
+					"PaneName": "L_BtnBack",
+					"Position": {
+						"X": -3062.0,
+						"Y": -285.0
+					}
+				},
+				{
+					"PaneName": "L_BtnResume",
+					"Position": {
+						"X": 10000.0
+					}
+				},
+				{
+					"PaneName": "L_BtnNtf",
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "N_ChildLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_MarginChildLockHud",
+					"Visible": false
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Pict",
+					"ForegroundColor": "14000000",
+					"BackgroundColor": "E6FFFFFF"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"BackgroundColor": "E6FFFFFF"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"BackgroundColor": "E6FFFFFF"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"BackgroundColor": "E6FFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnChildLock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Hud.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Position": {
+						"X": -980.0,
+						"Y": 30.0
+					},
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					}
+				}
+			]
+		}
+	]
+}

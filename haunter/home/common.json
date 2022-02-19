@@ -1,0 +1,45 @@
+{
+	"PatchName": "Common (Home Menu Common)",
+	"AuthorName": "SodaSoba",
+	"ID": "Generated_6270d9c7-b714-46f0-99cc-0373b4f3296a",
+	"Files": [
+		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterAll.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Ctrl",
+					"Position": {
+						"X": 60.0,
+						"Y": 650.0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

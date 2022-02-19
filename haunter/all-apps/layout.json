@@ -1,0 +1,443 @@
+{
+	"PatchName": "vert-zhi-soda (All Apps)",
+	"AuthorName": "SodaSoba",
+	"TargetName": "Flaunch.szs",
+	"ID": "Generated_ba038a7e-4a7d-4621-b925-6607a8a9ccd6",
+	"Files": [
+		{
+			"FileName": "blyt/FlcCntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Header",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnSort",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Top",
+					"Position": {
+						"Y": 338.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_00",
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_01",
+					"Position": {
+						"Y": -148.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_02",
+					"Position": {
+						"Y": -258.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_03",
+					"Position": {
+						"Y": -428.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_04",
+					"Position": {
+						"Y": -568.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_05",
+					"Position": {
+						"Y": -608.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_06",
+					"Position": {
+						"Y": -748.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "L_BtnIconGame_07",
+					"Position": {
+						"Y": -988.0
+					},
+					"Size": {
+						"X": 1094.0,
+						"Y": 284.0
+					}
+				},
+				{
+					"PaneName": "N_Btm",
+					"Position": {
+						"Y": -1087.0
+					},
+					"Size": {
+						"X": 10.0,
+						"Y": 182.0
+					}
+				},
+				{
+					"PaneName": "L_Shop",
+					"Visible": false
+				}
+			]
+		},
+		{
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                },
+                {
+                    "PaneName": "P_Main",
+                    "Size": {
+                        "X": 5,
+                        "Y": 5
+                    },
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "10"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "71",
+                                "4",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF82004B",
+                    "ColorTR": "FFE22B8A",
+                    "ColorBL": "FF82004B",
+                    "ColorBR": "FFE22B8A"
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "5"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FFD30094",
+                    "ColorTR": "FFC000C0",
+                    "ColorBL": "FFD30094",
+                    "ColorBR": "FFC000C0"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Main",
+                    "ForegroundColor": "00FFFFFF",
+                    "BackgroundColor": "FFFFFFFF"
+                },
+                {
+                    "MaterialName": "P_Grow",
+                    "ForegroundColor": "00FFFFFF",
+                    "BackgroundColor": "FFFFFFFF"
+                }
+            ]
+		},
+		{
+			"FileName": "blyt/BaseTop.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_HeaderPos",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBalloon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Tip",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_TipShdw",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBtnIconGameBlock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_00",
+					"Scale": {
+						"X": 1.1,
+						"Y": 1.1
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FlcBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					}
+				},
+				{
+					"PaneName": "N_Tip",
+					"Visible": false
+				},
+				{
+					"PaneName": "B_Hit",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					}
+				},
+				{
+					"PaneName": "N_Delete",
+					"Scale": {
+						"X": 0.9,
+						"Y": 0.9
+					}
+				},
+				{
+					"PaneName": "P_BtnBase",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_IconGame",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Blank",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					}
+				},
+				{
+					"PaneName": "N_Suspend",
+					"Position": {
+						"Y": -105.0
+					}
+				},
+				{
+					"PaneName": "N_DL",
+					"Position": {
+						"Y": -108.0
+					}
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					}
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					}
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"Size": {
+						"X": 174.0,
+						"Y": 174.0
+					},
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"Size": {
+						"X": 174.0,
+						"Y": 261.0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineHeader_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Line",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}
