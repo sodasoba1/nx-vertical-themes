@@ -1,0 +1,819 @@
+{
+    "PatchName": "PAint (Lockscreen)",
+    "AuthorName": "SodaSoba",
+    "TargetName": "Entrance.szs",
+    "ID": "Generated_f3b6cd27-7961-440d-9cc1-404e88156eba",
+    "Files": [
+        {
+            "FileName": "blyt/EntIconPromotion.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_PromotionBg",
+                    "Position": {
+                        "X": -10,
+                        "Y": -28
+                    }
+                },
+                {
+                    "PaneName": "T_Promotion",
+                    "Position": {}
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnCenterNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "Y": -10
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Position": {
+                        "Y": 16
+                    }
+                },
+                {
+                    "PaneName": "N_BtnCnt",
+                    "Position": {
+                        "Y": -83
+                    }
+                },
+                {
+                    "PaneName": "N_L",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_R",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "P_Pict",
+                    "Position": {},
+                    "ParentOriginY": 2
+                },
+                {
+                    "PaneName": "T_01",
+                    "Position": {
+                        "Y": -20
+                    }
+                },
+                {
+                    "PaneName": "P_IcoSub",
+                    "Position": {
+                        "X": -258,
+                        "Y": -3
+                    }
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Pict",
+                    "ForegroundColor": "00000000"
+                },
+                {
+                    "MaterialName": "T_01",
+                    "ForegroundColor": "00000000"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/HudTime.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_GTNum_01",
+                    "Position": {
+                        "X": -57
+                    },
+                    "Size": {
+                        "X": 20,
+                        "Y": 24
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Waiticon.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                },
+                {
+                    "PaneName": "P_Main",
+                    "ColorTL": "FF0040C0",
+                    "ColorTR": "FF0080FF",
+                    "ColorBL": "FF0080FF",
+                    "ColorBR": "FF0040C0"
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "ColorTL": "FF0045FF",
+                    "ColorTR": "FF00A5FF",
+                    "ColorBL": "FF00A5FF",
+                    "ColorBR": "FF0045FF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnLock.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "Y": -20
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_KeyA_00",
+                    "Position": {
+                        "X": -100,
+                        "Y": -17
+                    },
+                    "Size": {
+                        "X": 25,
+                        "Y": 25
+                    }
+                },
+                {
+                    "PaneName": "L_KeyA_01",
+                    "Position": {
+                        "Y": -15
+                    },
+                    "Rotation": {
+                        "Z": 45
+                    },
+                    "Size": {
+                        "X": 25,
+                        "Y": 25
+                    }
+                },
+                {
+                    "PaneName": "L_KeyA_02",
+                    "Position": {
+                        "X": 100,
+                        "Y": -17
+                    },
+                    "Rotation": {
+                        "Z": 90
+                    },
+                    "Size": {
+                        "X": 25,
+                        "Y": 25
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BgL",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_BgR",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_CntR",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_CntL",
+                    "Position": {
+                        "X": -1000,
+                        "Y": 10000
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Lock",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_Alarm",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_AlarmCtrlResume",
+                    "Position": {
+                        "X": -212,
+                        "Y": 127
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_AlarmCtrlCntHud",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_News",
+                    "Position": {
+                        "X": -1000,
+                        "Y": 36
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Lock",
+                    "Position": {
+                        "Y": -280
+                    }
+                },
+                {
+                    "PaneName": "L_BtnBack",
+                    "Position": {
+                        "X": -3062,
+                        "Y": -285
+                    }
+                },
+                {
+                    "PaneName": "L_BtnResume",
+                    "Position": {
+                        "X": 211,
+                        "Y": -536
+                    }
+                },
+                {
+                    "PaneName": "N_CntHud",
+                    "Position": {
+                        "Y": -14
+                    }
+                },
+                {
+                    "PaneName": "L_BtnNtf",
+                    "Position": {
+                        "Y": -1000
+                    },
+                    "Scale": {
+                        "X": 0.4,
+                        "Y": 0.4
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_AlarmHud",
+                    "Position": {
+                        "X": 444,
+                        "Y": -310
+                    }
+                },
+                {
+                    "PaneName": "P_AlarmBase",
+                    "Size": {
+                        "X": 256,
+                        "Y": 256
+                    }
+                },
+                {
+                    "PaneName": "N_Pos",
+                    "Position": {
+                        "X": 600,
+                        "Y": -314
+                    },
+                    "Visible": false,
+                    "ParentOriginY": 0
+                },
+                {
+                    "PaneName": "N_Game",
+                    "Scale": {
+                        "X": 1.19999993,
+                        "Y": 1.19999993
+                    }
+                },
+                {
+                    "PaneName": "N_SystemApplet",
+                    "Visible": true
+                },
+                {
+                    "PaneName": "N_ChildLock",
+                    "Position": {
+                        "Y": 295
+                    }
+                },
+                {
+                    "PaneName": "N_MarginChildLockHud",
+                    "Position": {
+                        "X": 120,
+                        "Y": 295
+                    }
+                },
+                {
+                    "PaneName": "L_Hud",
+                    "Position": {},
+                    "Size": {
+                        "X": 94,
+                        "Y": 40
+                    }
+                },
+                {
+                    "PaneName": "L_AlarmGoSet",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnGame",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "N_Home",
+                    "Position": {
+                        "Y": -100
+                    }
+                },
+                {
+                    "PaneName": "L_BtnSystemApplet",
+                    "Position": {
+                        "Y": -80
+                    }
+                },
+                {
+                    "PaneName": "P_AlarmBell",
+                    "Position": {
+                        "Y": 113
+                    }
+                },
+                {
+                    "PaneName": "T_AlarmHeader",
+                    "Position": {
+                        "Y": 100
+                    }
+                },
+                {
+                    "PaneName": "L_AlarmTime",
+                    "Position": {
+                        "X": 530,
+                        "Y": 308
+                    }
+                },
+                {
+                    "PaneName": "L_AlarmBtnResume",
+                    "Position": {
+                        "Y": -23
+                    }
+                },
+                {
+                    "PaneName": "L_BtnHome",
+                    "Position": {
+                        "Y": -25
+                    }
+                },
+                {
+                    "PaneName": "L_AlarmGame",
+                    "Position": {
+                        "Y": -45
+                    }
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Pict",
+                    "ForegroundColor": "14000000",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnChildLock.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnResumeSystemApplet.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_ImageEffect",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_PictHome",
+                    "Position": {
+                        "Y": -40
+                    },
+                    "Visible": true,
+                    "ColorTR": "FF0045FF",
+                    "ColorBL": "FF0045FF"
+                },
+                {
+                    "PaneName": "N_PictFlc",
+                    "Size": {}
+                },
+                {
+                    "PaneName": "P_PictFlc_00",
+                    "Size": {},
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_PictFlc_01",
+                    "Size": {},
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_PictFlc_02",
+                    "Size": {},
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_PictFlc_03",
+                    "Size": {},
+                    "Visible": false
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Circle_00",
+                    "BackgroundColor": "00FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Circle_01",
+                    "BackgroundColor": "00FFFFFF"
+                },
+                {
+                    "MaterialName": "P_PictHome",
+                    "BackgroundColor": "FF000000"
+                },
+                {
+                    "MaterialName": "P_PictFlc_00",
+                    "BackgroundColor": "00FFFFFF"
+                },
+                {
+                    "MaterialName": "P_PictFlc_01",
+                    "BackgroundColor": "00FFFFFF"
+                },
+                {
+                    "MaterialName": "P_PictFlc_02",
+                    "BackgroundColor": "00FFFFFF"
+                },
+                {
+                    "MaterialName": "P_PictFlc_03",
+                    "BackgroundColor": "00FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/GTNumL.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_GTNum_00",
+                    "ColorBL": "FF0045FF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnCenter.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "Y": -10
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BtnCnt",
+                    "Position": {
+                        "Y": -68
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_L",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_R",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_LRPadding",
+                    "Size": {
+                        "X": 48,
+                        "Y": 10
+                    }
+                },
+                {
+                    "PaneName": "L_LoadingImage"
+                },
+                {
+                    "PaneName": "T_00",
+                    "Position": {
+                        "Y": -10
+                    }
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Pict",
+                    "ForegroundColor": "00000000",
+                    "BackgroundColor": "FFFFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnLockIndicator.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Btn",
+                    "Size": {
+                        "X": 25,
+                        "Y": 25
+                    },
+                    "ColorTL": "FF0045FF",
+                    "ColorTR": "FF00A5FF",
+                    "ColorBL": "FF0045FF",
+                    "ColorBR": "FF0045FF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/GTNumM.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_GTNum_00",
+                    "ColorBL": "FF0045FF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/HudSignal.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Wifi",
+                    "ColorTL": "FF00FF00",
+                    "ColorTR": "FF00C000",
+                    "ColorBL": "FFC0FFC0",
+                    "ColorBR": "FF80FF80"
+                },
+                {
+                    "PaneName": "P_WireLine",
+                    "ColorTL": "FF0080FF",
+                    "ColorTR": "FF00C000",
+                    "ColorBL": "FF00FF00",
+                    "ColorBR": "FF0080FF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Mask",
+                    "Position": {
+                        "X": 1,
+                        "Y": -150
+                    }
+                },
+                {
+                    "PaneName": "T_Title",
+                    "Position": {
+                        "X": 1,
+                        "Y": 40
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnCenterAlarmClose.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "Y": -10
+                    }
+                },
+                {
+                    "PaneName": "N_BtnCnt",
+                    "Position": {
+                        "Y": -83
+                    }
+                },
+                {
+                    "PaneName": "N_L",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "N_R",
+                    "Position": {}
+                },
+                {
+                    "PaneName": "T_00",
+                    "Position": {
+                        "Y": -10
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Hud.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "X": 420,
+                        "Y": -300
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnResumeGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Position": {
+                        "Y": 40
+                    },
+                    "Size": {
+                        "X": 300,
+                        "Y": 454
+                    }
+                },
+                {
+                    "PaneName": "N_Root",
+                    "Position": {
+                        "Y": -20
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Position": {
+                        "Y": 20
+                    },
+                    "Size": {
+                        "X": 230,
+                        "Y": 330
+                    }
+                },
+                {
+                    "PaneName": "P_EffectDecide",
+                    "Position": {
+                        "Y": -41
+                    },
+                    "Size": {
+                        "X": 312,
+                        "Y": 394
+                    }
+                },
+                {
+                    "PaneName": "P_Image",
+                    "Position": {
+                        "Y": 40
+                    },
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "Position": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "Size": {
+                        "X": 276,
+                        "Y": 376
+                    }
+                },
+                {
+                    "PaneName": "N_NoImage",
+                    "Position": {
+                        "Y": -10
+                    }
+                },
+                {
+                    "PaneName": "N_Suspend",
+                    "Position": {
+                        "Y": 83
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_NoImage",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "L_Promotion",
+                    "Position": {
+                        "X": 7,
+                        "Y": -200
+                    }
+                },
+                {
+                    "PaneName": "P_Account_03",
+                    "Position": {
+                        "X": 70,
+                        "Y": 124
+                    }
+                },
+                {
+                    "PaneName": "P_Account_02",
+                    "Position": {
+                        "X": 39,
+                        "Y": 125
+                    }
+                },
+                {
+                    "PaneName": "P_Account_01",
+                    "Position": {
+                        "X": -10,
+                        "Y": 125
+                    }
+                },
+                {
+                    "PaneName": "P_Account_00",
+                    "Position": {
+                        "X": -68,
+                        "Y": 126
+                    }
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_NoImage",
+                    "BackgroundColor": "C8C8C8C8"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PageindicatorDotAlarm.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Indicator",
+                    "Rotation": {
+                        "Z": 45
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BatteryConsole.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Ico00",
+                    "ColorTL": "FF0045FF",
+                    "ColorBR": "FF0045FF"
+                },
+                {
+                    "PaneName": "P_Per",
+                    "ColorTL": "FF0045FF",
+                    "ColorBR": "FF0045FF"
+                }
+            ]
+        }
+    ],
+    "Anims": [
+        {
+            "FileName": "anim/EntBtnResumeGame_User.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":9,\"Name\":\"User\",\"ChildBinding\":200,\"Groups\":[\"G_SuspendStatus\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AMwAAAAAAA==\"},\"pai1\":{\"FrameSize\":0,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        },
+        {
+            "FileName": "anim/EntBtnCenterNtf_Ico.bflan",
+            "AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":9,\"Name\":\"User\",\"ChildBinding\":0,\"Groups\":[\"G_SuspendStatus\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAAAAAAAAA==\"},\"pai1\":{\"FrameSize\":0,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+        }
+    ]
+}

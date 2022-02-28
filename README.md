@@ -10,12 +10,16 @@ to get these icons to work correctly you will need:
 
 # [Guide on icon installation using NX-GIC](https://github.com/sodasoba1/NSW-Custom-Game-Icons)
 
+OLDER THEMES (NX-GIC Supported)
 
-![csv1](<project-vert-clean/project-vert-clean/preview/homescreen.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/allapps.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/lockscreen1-presshome.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/lockscreen2-resume.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/lockscreen3-resume.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/player-select.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/settings.jpg>)
-![csv1](<project-vert-clean/project-vert-clean/preview/userpage.jpg>)
+![cigstyle](<project-vert-clean/project-vert-clean/preview/homescreen.jpg>)
+
+-----------
+
+NEWER THEMES (Icongrabber 2:3 ratio friendly)
+
+Haunter
+![igstyle](<haunter/Preview/home.jpg>)
+
+paintsplosion
+![igstyle](<paintsplosion/Preview/home.jpg>)

@@ -1,0 +1,261 @@
+{
+    "PatchName": "PAint (Player Select)",
+    "AuthorName": "SodaSoba",
+    "TargetName": "Psl.szs",
+    "ID": "Generated_9cdc0b93-1c3d-4989-ab50-1bf9b0aff33a",
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                },
+                {
+                    "PaneName": "P_Main",
+                    "Size": {
+                        "X": 5,
+                        "Y": 5
+                    },
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "10"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "10"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "9",
+                                "71",
+                                "4",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF0080FF",
+                    "ColorTR": "FF0040C0",
+                    "ColorBL": "FF0080FF",
+                    "ColorBR": "FF0040C0"
+                },
+                {
+                    "PaneName": "P_Grow",
+                    "UsdPatches": [
+                        {
+                            "PropName": "S_BorderSize",
+                            "PropValues": [
+                                "7"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_BorderColorSelect0",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "S_BorderColor0",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_RoundRadius",
+                            "PropValues": [
+                                "5"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "S_DropShadowSize",
+                            "PropValues": [
+                                "0"
+                            ],
+                            "type": 2
+                        },
+                        {
+                            "PropName": "C_B",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        },
+                        {
+                            "PropName": "C_W",
+                            "PropValues": [
+                                "0",
+                                "0",
+                                "0",
+                                "0"
+                            ],
+                            "type": 1
+                        }
+                    ],
+                    "ColorTL": "FF00A5FF",
+                    "ColorTR": "FF0045FF",
+                    "ColorBL": "FF00A5FF",
+                    "ColorBR": "FF0045FF"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Main",
+                    "ForegroundColor": "00FFFFFF",
+                    "BackgroundColor": "FFFFFFFF"
+                },
+                {
+                    "MaterialName": "P_Grow",
+                    "ForegroundColor": "00FFFFFF",
+                    "BackgroundColor": "FFFFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslTextOpenNg.bflyt",
+            "Patches": [],
+            "Materials": [
+                {
+                    "MaterialName": "T_text_00",
+                    "BackgroundColor": "FF0080FF"
+                },
+                {
+                    "MaterialName": "P_Bg",
+                    "BackgroundColor": "FF004080"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DBtmHeaderNml.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/TextH1.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslTextH1Edit.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Scale": {
+                        "X": 0.9,
+                        "Y": 0.9
+                    }
+                },
+                {
+                    "PaneName": "P_Bg",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Cnt",
+                    "Position": {}
+                }
+            ]
+        }
+    ]
+}
