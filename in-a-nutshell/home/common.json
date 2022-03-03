@@ -1,0 +1,155 @@
+{
+	"PatchName": "miami (Home Menu Common)",
+	"AuthorName": "autoDiff",
+	"ID": "Generated_fa23270c-ba8d-4f9b-a89a-3058d6608f91",
+	"Files": [
+		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/UserIconName.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Centering",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Icon",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Padding",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/UserIconNameStatus.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Icon",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Padding",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/ScrollIndicatorS.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_IndicatorArea"
+				},
+				{
+					"PaneName": "P_Indicator",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterAll.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Ctrl",
+					"Position": {
+						"X": 70.0,
+						"Y": 645.0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineSelBox.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterBtn.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_TouchEff",
+					"ColorTR": "FFE4096A",
+					"ColorBL": "FFB476B8"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "T_Key",
+					"BackgroundColor": "FFC000C0"
+				},
+				{
+					"MaterialName": "T_00",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_Key",
+					"BackgroundColor": "FFC000C0"
+				},
+				{
+					"MaterialName": "T_01",
+					"BackgroundColor": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterCtrl.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_CtrlDummy",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_IcoKey",
+					"ColorTR": "FF33D2FE",
+					"ColorBL": "FFE4096A"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_CtrlDummy",
+					"BackgroundColor": "FFC000C0"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LinePlateDlg.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}

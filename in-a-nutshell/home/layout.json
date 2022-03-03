@@ -1,0 +1,1135 @@
+{
+	"PatchName": "miami (Home Menu)",
+	"AuthorName": "autoDiff",
+	"TargetName": "ResidentMenu.szs",
+	"ID": "Generated_e0ddfa89-ae73-42d6-a098-a71a89e4162a",
+	"HideOnlineBtn": false,
+	"Files": [
+		{
+			"FileName": "blyt/RdtBtnCtrl.bflyt",
+			"Patches": [
+				{
+					"PaneName": "B_Hit",
+					"Size": {
+						"X": 90.0,
+						"Y": 90.0
+					}
+				},
+				{
+					"PaneName": "N_Tip",
+					"Position": {
+						"Y": 72.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_Form",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Size": {
+						"X": 140.0,
+						"Y": 140.0
+					}
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_PictBase",
+					"ForegroundColor": "32000000",
+					"BackgroundColor": "78FFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/HudTime.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Colon",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnFullLauncher.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Size": {
+						"X": 100.0,
+						"Y": 100.0
+					}
+				},
+				{
+					"PaneName": "N_Root",
+					"Rotation": {
+						"Z": 45.0
+					}
+				},
+				{
+					"PaneName": "N_Tip",
+					"Position": {
+						"X": -60.0,
+						"Y": -60.0
+					},
+					"Rotation": {
+						"Z": -45.0
+					}
+				},
+				{
+					"PaneName": "N_DecideTouch",
+					"Scale": {
+						"X": 1.0,
+						"Y": 1.0
+					}
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictBase",
+					"Rotation": {
+						"Z": 45.0
+					},
+					"Size": {
+						"X": 80.0,
+						"Y": 80.0
+					},
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "N_Pict",
+					"Size": {
+						"X": 70.0,
+						"Y": 70.0
+					}
+				},
+				{
+					"PaneName": "P_Effect",
+					"Size": {
+						"X": 260.0,
+						"Y": 260.0
+					},
+					"ColorTR": "FF400040",
+					"ColorBL": "FFFF00FF"
+				},
+				{
+					"PaneName": "P_Pict_00",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_Pict_01",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_Pict_02",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_Pict_03",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_PictBase_00",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_PictBase_01",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_PictBase_02",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_PictBase_03",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_PictBase",
+					"BackgroundColor": "AFFFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Main",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"7"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_Grow",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"7"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFC000C0"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"ForegroundColor": "00FFFFFF",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"ForegroundColor": "00FFFFFF",
+					"BackgroundColor": "FFFFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnSet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "B_Hit",
+					"Size": {
+						"X": 100.0,
+						"Y": 100.0
+					}
+				},
+				{
+					"PaneName": "N_Tip",
+					"Position": {
+						"Y": 72.0
+					}
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Size": {
+						"X": 140.0,
+						"Y": 140.0
+					},
+					"ColorTR": "FFFF00FF",
+					"ColorBL": "FFFF00FF"
+				},
+				{
+					"PaneName": "P_Pict",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_PictBase",
+					"BackgroundColor": "78FFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPvr.bflyt",
+			"Patches": [
+				{
+					"PaneName": "B_Hit",
+					"Size": {
+						"X": 100.0,
+						"Y": 100.0
+					}
+				},
+				{
+					"PaneName": "N_Tip",
+					"Position": {
+						"Y": 72.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictBase",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "P_Color",
+					"ColorTL": "FFFFC0FF",
+					"ColorTR": "FF0000FF",
+					"ColorBL": "FF0000FF",
+					"ColorBR": "FFFFC0FF"
+				},
+				{
+					"PaneName": "P_Pict_00",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Size": {
+						"X": 140.0,
+						"Y": 140.0
+					},
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFFF00FF"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_PictBase",
+					"BackgroundColor": "78FFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnMyPage.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Position": {
+						"Y": 58.0
+					}
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnIconGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Tip",
+					"Position": {
+						"Y": -270.0
+					}
+				},
+				{
+					"PaneName": "B_Hit",
+					"Scale": {
+						"X": 1.2,
+						"Y": 1.2
+					},
+					"Size": {
+						"X": 217.6,
+						"Y": 217.6
+					}
+				},
+				{
+					"PaneName": "L_Balloon",
+					"Position": {},
+					"Scale": {
+						"X": 0.9,
+						"Y": 0.9
+					}
+				},
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_IconGame",
+					"Size": {
+						"X": 256.0,
+						"Y": 384.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Blank",
+					"Size": {
+						"X": 256.0,
+						"Y": 384.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "N_Suspend",
+					"Position": {
+						"Y": 150.0
+					}
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Size": {
+						"X": 256.0,
+						"Y": 384.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"Size": {
+						"X": 256.0,
+						"Y": 384.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_InnerCursor",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"Size": {
+						"X": 256.0,
+						"Y": 384.0
+					}
+				},
+				{
+					"PaneName": "P_EffectDecide",
+					"Size": {
+						"X": 256.0,
+						"Y": 384.0
+					}
+				}
+			],
+			"AddGroups": [
+				{
+					"GroupName": "G_ActiveMigush",
+					"Panes": [
+						"N_Root",
+						"P_InnerCursor",
+						"P_IconGame",
+						"P_BtnTouch",
+						"N_Suspend",
+						"P_BtnDecideKey",
+						"P_Blank",
+						"P_BtnBase",
+						"N_BtnFocusKey",
+						"B_Hit"
+					]
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "T_Suspend",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_Suspend_00",
+					"BackgroundColor": "FF400040"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/GTNumL.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_GTNum_00",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBase.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_ScrollArea",
+					"Position": {
+						"X": 27.5,
+						"Y": -84.0
+					},
+					"Scale": {
+						"X": 0.8984375,
+						"Y": 0.8984375
+					},
+					"Size": {
+						"X": 1190.0,
+						"Y": 322.0
+					}
+				},
+				{
+					"PaneName": "N_ScrollWindow",
+					"Position": {
+						"X": 30.5,
+						"Y": -84.0
+					},
+					"Size": {
+						"X": 970.0,
+						"Y": 322.0
+					}
+				},
+				{
+					"PaneName": "T_Blank",
+					"Position": {
+						"X": 1.0,
+						"Y": 197.0
+					},
+					"Size": {
+						"X": 1198.0,
+						"Y": 30.0
+					}
+				},
+				{
+					"PaneName": "N_GameRoot",
+					"Position": {
+						"X": 55.0
+					}
+				},
+				{
+					"PaneName": "N_System",
+					"Position": {
+						"X": -570.0,
+						"Y": 255.0
+					},
+					"Scale": {
+						"X": 0.7,
+						"Y": 0.7
+					},
+					"Size": {
+						"X": 110.0,
+						"Y": 80.0
+					}
+				},
+				{
+					"PaneName": "L_ChildLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Balloon",
+					"Position": {
+						"X": 0.5
+					},
+					"Size": {
+						"X": 1281.0,
+						"Y": 720.0
+					}
+				},
+				{
+					"PaneName": "N_MyPage",
+					"Position": {
+						"X": 350.0,
+						"Y": 300.0
+					}
+				},
+				{
+					"PaneName": "L_Hud",
+					"Position": {
+						"X": 635.0,
+						"Y": 245.0
+					}
+				},
+				{
+					"PaneName": "L_BalloonCtrl",
+					"Position": {
+						"Y": 220.0
+					}
+				},
+				{
+					"PaneName": "N_Game",
+					"Position": {
+						"Y": 70.0
+					}
+				},
+				{
+					"PaneName": "L_BtnNoti",
+					"Position": {
+						"Y": -500.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnShop",
+					"Position": {
+						"Y": -400.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnPvr",
+					"Position": {}
+				},
+				{
+					"PaneName": "L_BtnCtrl",
+					"Position": {
+						"X": 130.0
+					}
+				},
+				{
+					"PaneName": "L_BtnSet",
+					"Position": {
+						"X": 260.0
+					}
+				},
+				{
+					"PaneName": "L_BtnPow",
+					"Position": {
+						"X": 454.5
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnAccount_00",
+					"Position": {
+						"X": 240.0,
+						"Y": 20.0
+					},
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "L_BtnAccount_01",
+					"Position": {
+						"X": 165.0,
+						"Y": 20.0
+					},
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "L_BtnAccount_02",
+					"Position": {
+						"X": 90.0,
+						"Y": 20.0
+					},
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "L_BtnAccount_03",
+					"Position": {
+						"X": 15.0,
+						"Y": 20.0
+					},
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "N_Icon_00",
+					"Position": {
+						"X": -460.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_01",
+					"Position": {
+						"X": -190.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_02",
+					"Position": {
+						"X": 80.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_03",
+					"Position": {
+						"X": 350.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_04",
+					"Position": {
+						"X": 620.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_05",
+					"Position": {
+						"X": 890.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_06",
+					"Position": {
+						"X": 1160.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_07",
+					"Position": {
+						"X": 1430.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_08",
+					"Position": {
+						"X": 1700.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_09",
+					"Position": {
+						"X": 1970.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_10",
+					"Position": {
+						"X": 2240.0
+					}
+				},
+				{
+					"PaneName": "N_Icon_11",
+					"Position": {
+						"X": 2510.0
+					}
+				},
+				{
+					"PaneName": "L_BtnChangeUser",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnFlc",
+					"Position": {}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/HudBatteryNum.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Per",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_GTNum_00",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_GTNum_00",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_GTNum_00",
+					"BackgroundColor": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/GTNumM.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_GTNum_00",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/HudSignal.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Wifi",
+					"Rotation": {
+						"Z": -45.0
+					},
+					"Scale": {
+						"X": 1.1,
+						"Y": 1.1
+					},
+					"ColorTL": "FF00FF00",
+					"ColorTR": "FF00FF00",
+					"ColorBL": "FF00C000",
+					"ColorBR": "FF00C000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBalloonCtrl.bflyt",
+			"Patches": [],
+			"Materials": [
+				{
+					"MaterialName": "P_Base",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_Tip",
+					"BackgroundColor": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBalloon.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Scale": {
+						"X": 0.75,
+						"Y": 0.75
+					}
+				},
+				{
+					"PaneName": "N_Card",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Card",
+					"Visible": false,
+					"ColorTR": "FF0000C0"
+				},
+				{
+					"PaneName": "N_Scroll",
+					"Size": {
+						"X": 500.0,
+						"Y": 42.0
+					}
+				},
+				{
+					"PaneName": "P_Color",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"71",
+								"4",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				},
+				{
+					"PaneName": "T_Main"
+				},
+				{
+					"PaneName": "T_Sub"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Hud.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_BatteryConsole",
+					"Position": {
+						"X": -26.0,
+						"Y": 6.0
+					},
+					"Rotation": {
+						"Z": 90.0
+					}
+				},
+				{
+					"PaneName": "N_Signal",
+					"Position": {
+						"X": -118.0,
+						"Y": -3.0
+					}
+				},
+				{
+					"PaneName": "N_Time",
+					"Position": {
+						"X": 10.0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/RdtBtnPow.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Balloon",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictBase",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BatteryConsole.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Position": {
+						"Y": 5.0
+					}
+				},
+				{
+					"PaneName": "P_Ico00",
+					"ColorTL": "FFC000C0",
+					"ColorTR": "FFC000C0",
+					"ColorBL": "FFC000C0",
+					"ColorBR": "FFC000C0"
+				},
+				{
+					"PaneName": "N_GaugeOther",
+					"Visible": true
+				},
+				{
+					"PaneName": "P_Charge",
+					"Position": {
+						"X": -40.0,
+						"Y": -20.0
+					},
+					"Rotation": {
+						"Z": 90.0
+					},
+					"Visible": true,
+					"ColorTL": "FF80FFFF",
+					"ColorTR": "FF00C0C0",
+					"ColorBL": "FF00C0C0",
+					"ColorBR": "FF80FFFF"
+				},
+				{
+					"PaneName": "P_GaugeNml",
+					"ColorTL": "FFFF8080",
+					"ColorTR": "FFFF8080",
+					"ColorBL": "FFFF8080",
+					"ColorBR": "FFFF8080"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_GTNum_00",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_GTNum_00",
+					"BackgroundColor": "FFFF8080"
+				},
+				{
+					"MaterialName": "P_GTNum_00",
+					"BackgroundColor": "FFFF8080"
+				}
+			]
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/RdtBase_SystemAppletPos.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"SystemAppletPos\",\"ChildBinding\":190,\"Groups\":[\"G_System\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AL8AAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+		}
+	]
+}
