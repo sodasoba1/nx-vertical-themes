@@ -2,7 +2,7 @@
 	"PatchName": "miami (Lockscreen)",
 	"AuthorName": "autoDiff",
 	"TargetName": "Entrance.szs",
-	"ID": "Generated_5ed9a038-384c-4972-953a-b436d78d6f6a",
+	"ID": "Generated_55a18ae2-739d-4d53-b810-04bb5d42a626",
 	"Files": [
 		{
 			"FileName": "blyt/Line_Root.bflyt",
@@ -156,6 +156,16 @@
 					"ColorBL": "FFC000C0",
 					"ColorBR": "FFFF8080"
 				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"BackgroundColor": "FFFFFFFF"
+				}
 			]
 		},
 		{
@@ -225,6 +235,9 @@
 				{
 					"PaneName": "N_CntR",
 					"Position": {}
+				},
+				{
+					"PaneName": "P_LockBgR"
 				},
 				{
 					"PaneName": "N_CntL",
@@ -616,14 +629,18 @@
 			"Patches": [
 				{
 					"PaneName": "P_Btn",
+					"Scale": {
+						"X": 1.2,
+						"Y": 1.2
+					},
 					"Size": {
 						"X": 25.0,
 						"Y": 25.0
 					},
 					"ColorTL": "B4FF8080",
-					"ColorTR": "FFC000C0",
+					"ColorTR": "B4FF8080",
 					"ColorBL": "B4FF8080",
-					"ColorBR": "C8FF00FF"
+					"ColorBR": "FFFF00FF"
 				},
 				{
 					"PaneName": "P_BtnNews",
@@ -647,9 +664,20 @@
 			"FileName": "blyt/HudSignal.bflyt",
 			"Patches": [
 				{
+					"PaneName": "P_Plane",
+					"ColorTL": "FF0000C0",
+					"ColorTR": "FF0080FF",
+					"ColorBL": "FF0080FF",
+					"ColorBR": "FF0000C0"
+				},
+				{
 					"PaneName": "P_Wifi",
 					"Rotation": {
 						"Z": -45.0
+					},
+					"Scale": {
+						"X": 1.1,
+						"Y": 1.1
 					},
 					"ColorTL": "FF00FF00",
 					"ColorTR": "FF00C000",
@@ -880,7 +908,7 @@
 				{
 					"PaneName": "P_Ico00",
 					"ColorTL": "FFC000C0",
-					"ColorTR": "FFC000C0",
+					"ColorTR": "FFFFC0C0",
 					"ColorBL": "FFC000C0",
 					"ColorBR": "FFC000C0"
 				},
@@ -895,10 +923,14 @@
 					"PaneName": "P_Charge",
 					"Position": {
 						"X": 40.0,
-						"Y": 20.0
+						"Y": -20.0
 					},
 					"Rotation": {
 						"Z": 90.0
+					},
+					"Scale": {
+						"X": 1.3,
+						"Y": 1.3
 					},
 					"Visible": true,
 					"ColorTL": "FF00FFFF",
@@ -908,12 +940,22 @@
 				},
 				{
 					"PaneName": "P_GaugeNml",
-					"ColorTL": "FFFF8080",
-					"ColorTR": "FFFF8080",
-					"ColorBL": "FFFF8080",
-					"ColorBR": "FFFF8080"
+					"ColorTL": "FF0000FF",
+					"ColorTR": "FF00C000",
+					"ColorBL": "FF0000FF",
+					"ColorBR": "FF00C000"
 				}
 			]
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/EntBtnResumeGame_User.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":9,\"Name\":\"User\",\"ChildBinding\":200,\"Groups\":[\"G_SuspendStatus\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AMwAAAAAAA==\"},\"pai1\":{\"FrameSize\":0,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
+		},
+		{
+			"FileName": "anim/EntBtnCenterNtf_Ico.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":9,\"Name\":\"User\",\"ChildBinding\":0,\"Groups\":[\"G_SuspendStatus\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAAAAAAAAA==\"},\"pai1\":{\"FrameSize\":0,\"Flags\":0,\"Textures\":[],\"Entries\":[]}}"
 		}
 	]
 }
