@@ -118,14 +118,38 @@
 				}
 			]
 		},
-		{
-			"FileName": "blyt/DCntText.bflyt",
-			"Patches": [
-				{
-					"PaneName": "T_00"
-				}
-			]
-		},
+        {
+            "FileName": "blyt/DCntIconLauncherText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_01",
+                    "Position": {
+                        "Y": -250
+                    }
+                },
+                {
+                    "PaneName": "L_Icon",
+                    "Size": {
+                        "X": 170,
+                        "Y": 255
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "Size": {
+                        "X": 450,
+                        "Y": 255
+                    }
+                },
+                {
+                    "PaneName": "N_AccountIcon_00",
+                    "Position": {
+                        "X": -240,
+                        "Y": -196
+                    }
+                }
+            ]
+        },
 		{
 			"FileName": "blyt/MaskBlack.bflyt",
 			"Patches": [],

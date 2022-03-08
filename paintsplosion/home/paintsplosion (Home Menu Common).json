@@ -1,87 +1,119 @@
 {
-    "PatchName": "PAint (Home Menu Common)",
-    "AuthorName": "autoDiff",
-    "ID": "Generated_83a8bf3f-236b-424e-ac08-6d223c142d8b",
-    "Files": [
-        {
-            "FileName": "blyt/Line_Root.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/HeadOptGroup.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/MaskBlack.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Mask",
-                    "ColorBL": "FF0040C0"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FooterAll.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line_00",
-                    "Visible": false
-                },
-                {
-                    "PaneName": "L_Ctrl",
-                    "Position": {
-                        "X": 70,
-                        "Y": 645
-                    }
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineSelBox.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/FooterBtn.bflyt",
-            "Patches": [],
-            "Materials": [
-                {
-                    "MaterialName": "T_Key",
-                    "BackgroundColor": "FF008CFF"
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LineFooter.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "P_Line",
-                    "Visible": false
-                }
-            ]
-        },
-        {
-            "FileName": "blyt/LinePlateDlg.bflyt",
-            "Patches": [
-                {
-                    "PaneName": "L_Line",
-                    "Visible": false
-                }
-            ]
-        }
-    ]
+	"PatchName": "PAint (Home Menu Common)",
+	"AuthorName": "autoDiff",
+	"ID": "Generated_83a8bf3f-236b-424e-ac08-6d223c142d8b",
+	"Files": [
+		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/DCntIconLauncherText.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_01",
+					"Position": {
+						"Y": -250
+					}
+				},
+				{
+					"PaneName": "L_Icon",
+					"Size": {
+						"X": 170,
+						"Y": 255
+					}
+				},
+				{
+					"PaneName": "T_00",
+					"Size": {
+						"X": 450,
+						"Y": 255
+					}
+				},
+				{
+					"PaneName": "N_AccountIcon_00",
+					"Position": {
+						"X": -240,
+						"Y": -196
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/HeadOptGroup.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/MaskBlack.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Mask",
+					"ColorBL": "FF0040C0"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterAll.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Ctrl",
+					"Position": {
+						"X": 70,
+						"Y": 645
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineSelBox.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/FooterBtn.bflyt",
+			"Patches": [],
+			"Materials": [
+				{
+					"MaterialName": "T_Key",
+					"BackgroundColor": "FF008CFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LinePlateDlg.bflyt",
+			"Patches": [
+				{
+					"PaneName": "L_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
 }

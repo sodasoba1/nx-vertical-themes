@@ -1,0 +1,83 @@
+{
+    "PatchName": "Vertical-OEM (Home Menu Common)",
+    "AuthorName": "SodaSoba",
+    "ID": "Generated_638c74b8-5f69-494f-8d96-c2e324c25fbe",
+    "Files": [
+        {
+            "FileName": "blyt/DCntIconLauncherText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_01",
+                    "Position": {
+                        "Y": -250
+                    }
+                },
+                {
+                    "PaneName": "L_Icon",
+                    "Size": {
+                        "X": 170,
+                        "Y": 255
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "Size": {
+                        "X": 450,
+                        "Y": 255
+                    }
+                },
+                {
+                    "PaneName": "N_AccountIcon_00",
+                    "Position": {
+                        "X": -240,
+                        "Y": -196
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DCntImageText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_00",
+                    "Size": {
+                        "X": 128,
+                        "Y": 192
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DHdrSoft.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Soft",
+                    "Position": {
+                        "X": -312,
+                        "Y": -47
+                    },
+                    "Size": {
+                        "X": 33,
+                        "Y": 50
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/IconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Icon",
+                    "Scale": {
+                        "X": 0.9,
+                        "Y": 0.9
+                    },
+                    "Size": {
+                        "X": 160,
+                        "Y": 240
+                    }
+                }
+            ]
+        }
+    ]
+}

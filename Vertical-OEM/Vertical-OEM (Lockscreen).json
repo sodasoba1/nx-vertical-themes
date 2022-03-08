@@ -1,0 +1,99 @@
+{
+    "PatchName": "Vertical-OEM (Lockscreen)",
+    "AuthorName": "SodaSoba",
+    "TargetName": "Entrance.szs",
+    "ID": "Generated_4774aa60-8426-46cd-aca2-a575e4700afa",
+    "Files": [
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnGame",
+                    "Position": {
+                        "Y": 20
+                    },
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "N_Home",
+                    "Position": {
+                        "Y": -165
+                    }
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Pict",
+                    "ForegroundColor": "14000000",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnResumeGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "P_Image",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "Size": {
+                        "X": 227.6,
+                        "Y": 336.4
+                    }
+                },
+                {
+                    "PaneName": "N_Suspend",
+                    "Position": {
+                        "Y": -135
+                    }
+                },
+                {
+                    "PaneName": "P_NoImage",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+    "PatchName": "Vertical-OEM (All Apps)",
+    "AuthorName": "SodaSoba",
+    "TargetName": "Flaunch.szs",
+    "ID": "Generated_239e584a-2097-4121-98f4-20c2fdcdfd9e",
+    "Files": [
+        {
+            "FileName": "blyt/FlcCntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Top",
+                    "Position": {
+                        "Y": 338
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_00",
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_01",
+                    "Position": {
+                        "Y": -148
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_02",
+                    "Position": {
+                        "Y": -258
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_03",
+                    "Position": {
+                        "Y": -428
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_04",
+                    "Position": {
+                        "Y": -568
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_05",
+                    "Position": {
+                        "Y": -608
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_06",
+                    "Position": {
+                        "Y": -748
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "L_BtnIconGame_07",
+                    "Position": {
+                        "Y": -988
+                    },
+                    "Size": {
+                        "X": 1094,
+                        "Y": 284
+                    }
+                },
+                {
+                    "PaneName": "N_Btm",
+                    "Position": {
+                        "Y": -1087
+                    },
+                    "Size": {
+                        "X": 10,
+                        "Y": 182
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnIslandIcon.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "Position": {
+                        "X": 21
+                    }
+                },
+                {
+                    "PaneName": "P_Pict",
+                    "Position": {
+                        "X": -405,
+                        "Y": -5
+                    },
+                    "Size": {
+                        "X": 37,
+                        "Y": 55
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FlcBtnIconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Scale": {
+                        "X": 0.8,
+                        "Y": 0.8
+                    }
+                },
+                {
+                    "PaneName": "N_Tip",
+                    "Position": {
+                        "Y": 116
+                    },
+                    "Scale": {
+                        "X": 0.8,
+                        "Y": 0.8
+                    }
+                },
+                {
+                    "PaneName": "B_Hit",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "N_Delete",
+                    "Scale": {
+                        "X": 0.9,
+                        "Y": 0.9
+                    }
+                },
+                {
+                    "PaneName": "P_BtnBase",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "P_IconGame",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "P_Blank",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "N_Suspend",
+                    "Position": {
+                        "Y": -105
+                    }
+                },
+                {
+                    "PaneName": "N_DL",
+                    "Position": {
+                        "Y": -108
+                    }
+                },
+                {
+                    "PaneName": "P_BtnDecideKey",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "P_InnerCursor",
+                    "Size": {
+                        "X": 174,
+                        "Y": 261
+                    }
+                },
+                {
+                    "PaneName": "N_BtnFocusKey",
+                    "Size": {
+                        "X": 178,
+                        "Y": 261
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnExpand.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Key",
+                    "Size": {
+                        "X": 45,
+                        "Y": 68
+                    }
+                }
+            ]
+        }
+    ]
+}
