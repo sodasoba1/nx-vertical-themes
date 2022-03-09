@@ -1,0 +1,205 @@
+{
+    "PatchName": "VErtical-OEM-Banned (Lockscreen)",
+    "AuthorName": "autoDiff",
+    "TargetName": "Entrance.szs",
+    "ID": "Generated_15a89b59-cbbd-4320-b58f-05b32e644047",
+    "Files": [
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BgL",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_BgR",
+                    "Size": {
+                        "X": 1280,
+                        "Y": 720
+                    }
+                },
+                {
+                    "PaneName": "N_CntL"
+                },
+                {
+                    "PaneName": "N_News",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_AlarmCtrlNtf",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BtnNewsNormal",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnNewsListLock",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnNtf",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BtnNewsPriority",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnGame",
+                    "Position": {
+                        "Y": 20
+                    },
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "N_Home",
+                    "Position": {
+                        "Y": -165
+                    }
+                },
+                {
+                    "PaneName": "N_BtnNews_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BtnNews_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BtnNews_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BalloonRecommendLock",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnNews_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_IconNew_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnNews_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_IconNew_01",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnNews_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_IconNew_02",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BalloonRecommend",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_BalloonRecommendTri",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_BalloonRecommend",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BalloonSizeMin",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BalloonTextSizeMax",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_BalloonTextMargin",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "T_BalloonRecommend",
+                    "Visible": false
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Pict",
+                    "ForegroundColor": "14000000",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnResumeGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "P_Image",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                },
+                {
+                    "PaneName": "P_BtnTouch",
+                    "Size": {
+                        "X": 227.6,
+                        "Y": 336.4
+                    }
+                },
+                {
+                    "PaneName": "N_Suspend",
+                    "Position": {
+                        "Y": -135
+                    }
+                },
+                {
+                    "PaneName": "P_NoImage",
+                    "Size": {
+                        "X": 217.6,
+                        "Y": 326.4
+                    }
+                }
+            ]
+        }
+    ]
+}
