@@ -1,0 +1,338 @@
+{
+    "PatchName": "intergalactic (Lockscreen)",
+    "AuthorName": "autoDiff",
+    "TargetName": "Entrance.szs",
+    "ID": "Generated_05ddd94d-6ad0-4aa4-bed8-51ba3d51e7c1",
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnCenterNtf.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Pict",
+                    "ColorTL": "FFFF0587",
+                    "ColorTR": "FFFF0587",
+                    "ColorBL": "FFFF0587",
+                    "ColorBR": "FFFF0587"
+                },
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFF0068",
+                    "ColorBL": "FFFF0068"
+                },
+                {
+                    "PaneName": "T_01",
+                    "ColorTL": "FFFF006B",
+                    "ColorBL": "FFFF006B"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/HudTime.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_A",
+                    "ColorTL": "FFFF0070",
+                    "ColorTR": "FFFF0070",
+                    "ColorBL": "FFFF00DD",
+                    "ColorBR": "FFFF0070"
+                },
+                {
+                    "PaneName": "P_M",
+                    "ColorTL": "FFFF0089",
+                    "ColorTR": "FFFF0089",
+                    "ColorBL": "FFFF00FF",
+                    "ColorBR": "FFFF0089"
+                },
+                {
+                    "PaneName": "P_P",
+                    "ColorTL": "FFFF0070",
+                    "ColorTR": "FFFF0070",
+                    "ColorBL": "FFFF00EA",
+                    "ColorBR": "FFFF0070"
+                },
+                {
+                    "PaneName": "P_Colon",
+                    "ColorTL": "FFFF005E",
+                    "ColorTR": "FFFF005E",
+                    "ColorBL": "FFFF00D1",
+                    "ColorBR": "FFFF005E"
+                },
+                {
+                    "PaneName": "P_Dot",
+                    "ColorTL": "FFFF007C",
+                    "ColorTR": "FFFF007C",
+                    "ColorBL": "FFFF00D8",
+                    "ColorBR": "FFFF007C"
+                },
+                {
+                    "PaneName": "P_Comma",
+                    "ColorTL": "FFFF007C",
+                    "ColorTR": "FFFF007C",
+                    "ColorBL": "FFFF00FC",
+                    "ColorBR": "FFFF007C"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Waiticon.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Wait",
+                    "ColorTL": "FFFF007C",
+                    "ColorTR": "FFFF007C",
+                    "ColorBL": "FFF700FF",
+                    "ColorBR": "FFFF007C"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntMain.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnNewsLock"
+                },
+                {
+                    "PaneName": "L_AlarmGoEnt"
+                },
+                {
+                    "PaneName": "L_AlarmBtnPagerR"
+                },
+                {
+                    "PaneName": "L_AlarmBtnPagerL"
+                },
+                {
+                    "PaneName": "L_AlarmGoSet"
+                },
+                {
+                    "PaneName": "L_BtnNewsSpecialLock"
+                },
+                {
+                    "PaneName": "L_AlarmBtnResume"
+                },
+                {
+                    "PaneName": "L_AlarmBtnUser"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "P_Pict",
+                    "ForegroundColor": "14000000",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                },
+                {
+                    "MaterialName": "P_Pict",
+                    "BackgroundColor": "E6FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnResumeSystemApplet.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_CircleEffect_00",
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                },
+                {
+                    "PaneName": "P_CircleEffect_01",
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                },
+                {
+                    "PaneName": "P_Circle_00",
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                },
+                {
+                    "PaneName": "P_Circle_01",
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/GTNumL.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_GTNum_00",
+                    "ColorTL": "FFFF006B",
+                    "ColorTR": "FFFF006B",
+                    "ColorBL": "FFFF00EF",
+                    "ColorBR": "FFFF006B"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/HudBatteryNum.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Per",
+                    "ColorTL": "FFFF005E",
+                    "ColorTR": "FFFF005E",
+                    "ColorBL": "FFFF00F2",
+                    "ColorBR": "FFFF005E"
+                },
+                {
+                    "PaneName": "L_GTNum_00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnCenter.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_LoadingImage"
+                },
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFF0084",
+                    "ColorBL": "FFFF0084"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnLockIndicator.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Btn",
+                    "Scale": {
+                        "X": 2,
+                        "Y": 2
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/GTNumM.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_GTNum_00",
+                    "ColorTL": "FFFF006B",
+                    "ColorTR": "FFFF006B",
+                    "ColorBL": "FFFF00CE",
+                    "ColorBR": "FFFF006B"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/HudSignal.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Plane",
+                    "ColorTL": "FF0070FF",
+                    "ColorTR": "FF0070FF",
+                    "ColorBL": "FF0070FF",
+                    "ColorBR": "FF0070FF"
+                },
+                {
+                    "PaneName": "P_Wifi",
+                    "ColorTL": "FF0AFF00",
+                    "ColorTR": "FF0AFF00",
+                    "ColorBL": "FF0AFF00",
+                    "ColorBR": "FF0AFF00"
+                },
+                {
+                    "PaneName": "P_Local",
+                    "ColorTL": "FF00FF0A",
+                    "ColorTR": "FF00FF0A",
+                    "ColorBL": "FFFF0068",
+                    "ColorBR": "FF00FF0A"
+                },
+                {
+                    "PaneName": "P_WireLine",
+                    "ColorTL": "FF0AFF00",
+                    "ColorTR": "FF426340",
+                    "ColorBL": "FF70B56C",
+                    "ColorBR": "FF0AFF00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnCenterAlarmClose.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_LoadingImage"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntIcoAlarmResumeGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Loading"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/EntBtnBack.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFF005E",
+                    "ColorBL": "FFFF005E"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BatteryConsole.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Num_00"
+                },
+                {
+                    "PaneName": "P_Per",
+                    "ColorTL": "FFFF007C",
+                    "ColorTR": "FFFF007C",
+                    "ColorBL": "FFFF00D1",
+                    "ColorBR": "FFFF007C"
+                },
+                {
+                    "PaneName": "P_BatBase",
+                    "ColorTL": "FFFF0089",
+                    "ColorTR": "FFFF00D8",
+                    "ColorBL": "FFFF00FF",
+                    "ColorBR": "FFFF0089"
+                },
+                {
+                    "PaneName": "P_Charge",
+                    "ColorTL": "FF00EFFF",
+                    "ColorTR": "FF00EFFF",
+                    "ColorBL": "FF00EFFF",
+                    "ColorBR": "FF00EFFF"
+                },
+                {
+                    "PaneName": "P_GaugeNml",
+                    "ColorTL": "FF0000FF",
+                    "ColorTR": "FF16FF00",
+                    "ColorBL": "FF0000FF",
+                    "ColorBR": "FF4ACE69"
+                }
+            ]
+        }
+    ]
+}

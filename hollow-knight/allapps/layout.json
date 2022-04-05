@@ -1,12 +1,20 @@
 {
-    "PatchName": "VErtical-OEM-Banned (All Apps)",
+    "PatchName": "diffPatch for all apps menu",
     "AuthorName": "autoDiff",
     "TargetName": "Flaunch.szs",
-    "ID": "Generated_4fdcb1d5-7f19-49dd-aeb0-8cc77899332f",
+    "ID": "Themezer_Custom:608a4662-116c-4b8f-8316-6eceb571b0f7",
     "Files": [
         {
             "FileName": "blyt/FlcCntMain.bflyt",
             "Patches": [
+                {
+                    "PaneName": "L_Header",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnSort",
+                    "Visible": false
+                },
                 {
                     "PaneName": "N_Top",
                     "Position": {
@@ -235,6 +243,19 @@
                         "X": 178,
                         "Y": 261
                     }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
                 }
             ]
         },

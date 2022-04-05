@@ -1,0 +1,269 @@
+{
+    "PatchName": "diffPatch",
+    "AuthorName": "Soda",
+    "ID": "Themezer_Custom:e2c8c07b-2fec-45e4-99fd-6fef2ad045bb",
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Position": {
+                        "X": 1100
+                    },
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/ScrollIndicatorS.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Indicator",
+                    "ColorTL": "FFFFFF00",
+                    "ColorTR": "FFFFFF00",
+                    "ColorBL": "FFFFFF80",
+                    "ColorBR": "FFFFFF80"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DCntIconLauncherText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_01",
+                    "Position": {
+                        "Y": -250
+                    }
+                },
+                {
+                    "PaneName": "L_Icon",
+                    "Size": {
+                        "X": 170,
+                        "Y": 255
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "Size": {
+                        "X": 450,
+                        "Y": 255
+                    },
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                },
+                {
+                    "PaneName": "N_AccountIcon_00",
+                    "Position": {
+                        "X": -240,
+                        "Y": -196
+                    },
+                    "Scale": {
+                        "X": 0.8,
+                        "Y": 0.8
+                    },
+                    "Visible": true
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DCntText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DCntImageText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Top"
+                },
+                {
+                    "PaneName": "P_00",
+                    "Size": {
+                        "X": 128,
+                        "Y": 192
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FooterAll.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line_00",
+                    "Position": {
+                        "X": 1300,
+                        "Y": 72
+                    },
+                    "Scale": {},
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_Line_01",
+                    "Position": {
+                        "X": 1300,
+                        "Y": 72
+                    },
+                    "Scale": {},
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    }
+                },
+                {
+                    "PaneName": "L_Line_02",
+                    "Position": {
+                        "X": 1300,
+                        "Y": 72
+                    },
+                    "Scale": {},
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DHdrSoft.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Soft",
+                    "Position": {
+                        "X": -312,
+                        "Y": -47
+                    },
+                    "Size": {
+                        "X": 33,
+                        "Y": 50
+                    }
+                },
+                {
+                    "PaneName": "T_Soft",
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                },
+                {
+                    "PaneName": "T_User",
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                },
+                {
+                    "PaneName": "L_Line",
+                    "Position": {
+                        "X": 1100,
+                        "Y": -73
+                    },
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/IconGame.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Icon",
+                    "Scale": {
+                        "X": 0.9,
+                        "Y": 0.9
+                    },
+                    "Size": {
+                        "X": 160,
+                        "Y": 240
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DHdrUserIconNameStatus.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DCntTextOption.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FF808000",
+                    "ColorBL": "FFC0C000"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FooterBtn.bflyt",
+            "Patches": [],
+            "Materials": [
+                {
+                    "MaterialName": "T_Key",
+                    "BackgroundColor": "FFC0C000"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DHdrText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFFFF80",
+                    "ColorBL": "FFFFFF00"
+                },
+                {
+                    "PaneName": "L_Line"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineFooter.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "Position": {
+                        "X": -2720
+                    },
+                    "Scale": {},
+                    "Size": {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/FooterCtrl.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_CtrlDummy",
+                    "ColorTR": "FFFFFF00",
+                    "ColorBL": "FFFFFF80"
+                }
+            ]
+        }
+    ]
+}

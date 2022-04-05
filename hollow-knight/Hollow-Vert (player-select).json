@@ -1,0 +1,111 @@
+{
+    "PatchName": "Lock-vertical layout (Player Select)",
+    "AuthorName": "autoDiff",
+    "TargetName": "Psl.szs",
+    "ID": "Themezer_Custom:39f0dc67-8539-4815-90b9-09bce9dea0c4",
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Root",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/Cursor3.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Size": {
+                        "X": 300,
+                        "Y": 400
+                    }
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslTextOpenNg.bflyt",
+            "Patches": [],
+            "Materials": [
+                {
+                    "MaterialName": "T_text_00",
+                    "BackgroundColor": "FF0080FF"
+                },
+                {
+                    "MaterialName": "P_Bg",
+                    "BackgroundColor": "FF004080"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/DBtmHeaderNml.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/TextH1.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslTextH1Edit.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "P_Line",
+                    "Visible": false
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "RootPane",
+                    "Scale": {
+                        "X": 0.9,
+                        "Y": 0.9
+                    }
+                },
+                {
+                    "PaneName": "P_Bg",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "N_Cnt",
+                    "Position": {}
+                }
+            ]
+        }
+    ]
+}

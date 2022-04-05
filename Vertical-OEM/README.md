@@ -9,3 +9,6 @@ home menu works correctly
 lock menu only changes the icon nothing else
 
 the switch standard black & white themes work correctly as no color values have been changed.
+
+
+Added allapps HOS 14.0

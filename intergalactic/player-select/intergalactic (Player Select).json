@@ -1,0 +1,383 @@
+{
+    "PatchName": "intergalactic (Player Select)",
+    "AuthorName": "autoDiff",
+    "TargetName": "Psl.szs",
+    "ID": "Generated_360bc2c9-e5fa-4a01-a3db-ed892533ba25",
+    "Files": [
+        {
+            "FileName": "blyt/Line_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BtnCardPlayerData_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_BtnCardBase",
+                    "Position": {
+                        "Y": 96
+                    },
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    }
+                },
+                {
+                    "PaneName": "P_BgName",
+                    "ColorTL": "FF68314B",
+                    "ColorTR": "FF68314B",
+                    "ColorBL": "FF68314B",
+                    "ColorBR": "FF68314B"
+                },
+                {
+                    "PaneName": "P_Mask",
+                    "Position": {
+                        "Y": 276
+                    },
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    }
+                },
+                {
+                    "PaneName": "P_GameImage",
+                    "Position": {
+                        "Y": 70
+                    },
+                    "Size": {
+                        "X": 256,
+                        "Y": 384
+                    }
+                },
+                {
+                    "PaneName": "T_PlayerName",
+                    "ColorTL": "FFFF006B",
+                    "ColorBL": "FFFF006B"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslAddNavi.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_IllustQ1",
+                    "ColorTL": "FFFF0059",
+                    "ColorTR": "FFFF0059",
+                    "ColorBL": "FFFF0059",
+                    "ColorBR": "FFFF0059"
+                },
+                {
+                    "PaneName": "P_IllustQ2",
+                    "ColorTL": "FFFF0070",
+                    "ColorTR": "FFFF0070",
+                    "ColorBL": "FFFF0070",
+                    "ColorBR": "FFFF0070"
+                },
+                {
+                    "PaneName": "P_IllustQ3",
+                    "ColorTL": "FFFF006B",
+                    "ColorTR": "FFFF006B",
+                    "ColorBL": "FFFF006B",
+                    "ColorBR": "FFFF006B"
+                },
+                {
+                    "PaneName": "T_Text",
+                    "ColorTL": "FFFF0068",
+                    "ColorBL": "FFFF0068"
+                },
+                {
+                    "PaneName": "L_BtnYes"
+                },
+                {
+                    "PaneName": "L_BtnNo"
+                },
+                {
+                    "PaneName": "P_IllustQ1_01",
+                    "ColorTL": "FFFF0044",
+                    "ColorTR": "FFFF0044",
+                    "ColorBL": "FFFF0044",
+                    "ColorBR": "FFFF0044"
+                },
+                {
+                    "PaneName": "P_IllustQ1_02",
+                    "ColorTL": "FFFF004F",
+                    "ColorTR": "FFFF004F",
+                    "ColorBL": "FFFF004F",
+                    "ColorBR": "FFFF004F"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/TextH1.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line"
+                },
+                {
+                    "PaneName": "P_Icon",
+                    "Position": {
+                        "X": -550,
+                        "Y": -2
+                    },
+                    "Size": {
+                        "X": 60,
+                        "Y": 90
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFF0068",
+                    "ColorBL": "FFFF0068"
+                },
+                {
+                    "PaneName": "T_01",
+                    "ColorTL": "FFFF0056",
+                    "ColorBL": "FFFF0056"
+                },
+                {
+                    "PaneName": "L_Line"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslDCntStoryPromotion.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFF005E",
+                    "ColorBL": "FFFF005E"
+                },
+                {
+                    "PaneName": "P_Bg",
+                    "ColorTL": "FFFF0070",
+                    "ColorTR": "FFFF0070",
+                    "ColorBL": "FFFF0070",
+                    "ColorBR": "FFFF0070"
+                },
+                {
+                    "PaneName": "T_01",
+                    "ColorTL": "FFFF005E",
+                    "ColorBL": "FFFF005E"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslTextH1Edit.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "N_Line"
+                },
+                {
+                    "PaneName": "T_00",
+                    "ColorTL": "FFFF0049",
+                    "ColorBL": "FFFF0049"
+                },
+                {
+                    "PaneName": "L_Line"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/LineHeader_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Line",
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/IllustMigUser.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Arw",
+                    "ColorTL": "FF5959FF",
+                    "ColorTR": "FF5959FF",
+                    "ColorBL": "FF5959FF",
+                    "ColorBR": "FF5959FF"
+                },
+                {
+                    "PaneName": "P_ConsoleL",
+                    "ColorTL": "FFCCFF00",
+                    "ColorTR": "FFCCFF00",
+                    "ColorBL": "FFCCFF00",
+                    "ColorBR": "FFCCFF00"
+                },
+                {
+                    "PaneName": "P_ConsoleR",
+                    "ColorTL": "FFD8FF00",
+                    "ColorTR": "FFD8FF00",
+                    "ColorBL": "FFD8FF00",
+                    "ColorBR": "FFD8FF00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslAddMigIntro2.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnHelp"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslDCntGameIconText.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_Icon",
+                    "Size": {
+                        "X": 140,
+                        "Y": 210
+                    }
+                },
+                {
+                    "PaneName": "T_00",
+                    "Size": {
+                        "X": 650,
+                        "Y": 210
+                    },
+                    "ColorTL": "FFFF0056",
+                    "ColorBL": "FFFF0056"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/BgNav_Root.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_NavBg",
+                    "ColorTL": "FF7F395B",
+                    "ColorTR": "FF7F395B",
+                    "ColorBL": "FF7F395B",
+                    "ColorBR": "FF7F395B"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslDCntNaLinkComplete.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "L_BtnDetail"
+                }
+            ],
+            "Materials": [
+                {
+                    "MaterialName": "T_00",
+                    "ForegroundColor": "00000000"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/IllustMigShop.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Father",
+                    "ColorTL": "FF56FF00",
+                    "ColorTR": "FF56FF00",
+                    "ColorBL": "FF56FF00",
+                    "ColorBR": "FF56FF00"
+                },
+                {
+                    "PaneName": "P_ShopLine",
+                    "ColorTL": "00007CFF",
+                    "ColorTR": "00007CFF",
+                    "ColorBL": "00007CFF",
+                    "ColorBR": "00007CFF"
+                },
+                {
+                    "PaneName": "P_Shop",
+                    "ColorTL": "040303BF",
+                    "ColorTR": "040303BF",
+                    "ColorBL": "040303BF",
+                    "ColorBR": "040303BF"
+                },
+                {
+                    "PaneName": "P_Girl",
+                    "ColorTL": "FFFF9E00",
+                    "ColorTR": "FFFF9E00",
+                    "ColorBL": "FFFF9E00",
+                    "ColorBR": "FFFF9E00"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslAddTop2.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_Aside",
+                    "ColorTL": "FFFF0070",
+                    "ColorBL": "FFFF0070"
+                },
+                {
+                    "PaneName": "P_IllustOther",
+                    "ColorTL": "FFFF007C",
+                    "ColorTR": "FFFF007C",
+                    "ColorBL": "FFFF00EF",
+                    "ColorBR": "FFFF007C"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslSelectSinglePlayerData.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Bg",
+                    "Size": {
+                        "X": 1280,
+                        "Y": 720
+                    },
+                    "ColorTL": "00FFFFFF",
+                    "ColorTR": "00FFFFFF",
+                    "ColorBL": "00FFFFFF",
+                    "ColorBR": "00FFFFFF"
+                },
+                {
+                    "PaneName": "L_Head",
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnSkip"
+                },
+                {
+                    "PaneName": "L_BtnAdd"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslSelectSinglePlayer.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "P_Bg",
+                    "Size": {
+                        "X": 1280,
+                        "Y": 720
+                    },
+                    "Visible": false
+                },
+                {
+                    "PaneName": "L_BtnAdd"
+                }
+            ]
+        },
+        {
+            "FileName": "blyt/PslAddCommit.bflyt",
+            "Patches": [
+                {
+                    "PaneName": "T_PlayerName",
+                    "ColorTL": "FFFF006B",
+                    "ColorBL": "FFFF006B"
+                }
+            ]
+        }
+    ]
+}
