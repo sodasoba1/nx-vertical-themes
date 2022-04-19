@@ -1,7 +1,6 @@
-how to use these themes:
+Guide for patching .nxtheme files made for older HOS versions
+so they will function on HOS14+
 
-https://github.com/sodasoba1/NSW-Custom-Game-Icons/wiki
+how to apply vertical icons:
 
-NX-GIC icon size themes are in project-vert-clean (not icon grabber ratio but still look ok)
-
-icongrabber ratio themes are in every other folder
+https://sodasoba1.github.io/NSW-Custom-Game-Icons

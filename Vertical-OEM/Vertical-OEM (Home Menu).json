@@ -1,8 +1,8 @@
 {
-    "PatchName": "Vertical-OEM (Home Menu)",
+    "PatchName": "Vertical-OEM-fix (Home Menu)",
     "AuthorName": "SodaSoba",
     "TargetName": "ResidentMenu.szs",
-    "ID": "Generated_f4b48aee-7759-4262-83e5-1d948e9754cb",
+    "ID": "Generated_a4335ee6-8820-4e53-adad-73f9d8c2c38c",
     "HideOnlineBtn": false,
     "Files": [
         {
@@ -175,6 +175,7 @@
                 {
                     "PaneName": "N_System",
                     "Position": {
+                        "X": 38,
                         "Y": -219
                     },
                     "Scale": {
