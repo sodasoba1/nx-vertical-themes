@@ -3,4 +3,4 @@ so they will function on HOS14+
 
 how to apply vertical icons:
 
-https://sodasoba1.github.io/FlaunchFix/
+[https://sodasoba1.github.io/FlaunchFix/](https://sodasoba1.github.io/flfixind/)
