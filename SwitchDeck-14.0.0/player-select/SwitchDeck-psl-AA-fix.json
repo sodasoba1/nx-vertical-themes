@@ -1,0 +1,500 @@
+{
+  "PatchName": "SwitchDeck-14.0.0.0 (Player Select)-AA-fix",
+  "AuthorName": "SodaSoba",
+  "TargetName": "Psl.szs",
+  "ID": "Generated_eba5c9d6-c4cc-4020-84f5-e822491da1a9",
+  "Files": [
+    {
+      "FileName": "blyt/Line_Root.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Line",
+          "Visible": false,
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_BorderColorSelect0",
+              "PropValues": [
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "S_BorderColor0",
+              "PropValues": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_DropShadowSize",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            }
+          ],
+          "ColorTL": "00000000",
+          "ColorTR": "00000000",
+          "ColorBL": "00000000",
+          "ColorBR": "00000000"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslBtnParts.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_BtnFocusKeyInv",
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_BorderColorSelect0",
+              "PropValues": [
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "S_BorderColor0",
+              "PropValues": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_DropShadowSize",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            }
+          ],
+          "ColorTL": "FF3A2E1E",
+          "ColorTR": "FF3A2E1E",
+          "ColorBL": "FF3A2E1E",
+          "ColorBR": "FF3A2E1E"
+        },
+        {
+          "PaneName": "P_Icon",
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_BorderColorSelect0",
+              "PropValues": [
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "S_BorderColor0",
+              "PropValues": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_DropShadowSize",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            }
+          ],
+          "ColorTL": "FFFEFEFE",
+          "ColorTR": "FFFEFEFE",
+          "ColorBL": "FFFEFEFE",
+          "ColorBR": "FFFEFEFE"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialName": "P_BtnFocusKeyInv",
+          "BackgroundColor": "FFFFFFFF"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslTextOpenNg.bflyt",
+      "Patches": [],
+      "Materials": [
+        {
+          "MaterialName": "T_text_00",
+          "BackgroundColor": "FF0080FF"
+        },
+        {
+          "MaterialName": "P_Bg",
+          "BackgroundColor": "FF004080"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslPlayerImageEdit.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Shdw",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/DBtmHeaderNml.bflyt",
+      "Patches": [
+        {
+          "PaneName": "T_00",
+          "Visible": false
+        },
+        {
+          "PaneName": "P_Line",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/BtnCardPlayerData_Root.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_Root",
+          "Position": {
+            "Y": 60.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Position": {
+            "Y": 60.0
+          }
+        },
+        {
+          "PaneName": "P_BgName",
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_BorderColorSelect0",
+              "PropValues": [
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "S_BorderColor0",
+              "PropValues": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_DropShadowSize",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            }
+          ],
+          "ColorTL": "FF3A2E1E",
+          "ColorTR": "FF3A2E1E",
+          "ColorBL": "FF3A2E1E",
+          "ColorBR": "FF3A2E1E"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialName": "T_PlayerName",
+          "ForegroundColor": "FF008000",
+          "BackgroundColor": "FFC8C8C8"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/TextH1.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Line",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslTextH1Edit.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_Line",
+          "Visible": false
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/LineHeader_Root.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Line",
+          "Visible": false
+        }
+      ],
+	   "Materials": [
+        {
+          "MaterialName": "P_Line",
+          "ForegroundColor": "FF008000",
+          "BackgroundColor": "FFC8C8C8"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslSelectSinglePlayerData.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg",
+          "Position": {
+            "X": 5000.0,
+            "Y": 60000.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "L_Head",
+          "Position": {}
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslBtnCardPlayer.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_BgName",
+          "UsdPatches": [
+            {
+              "PropName": "S_BorderSize",
+              "PropValues": [
+                "7"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_BorderColorSelect0",
+              "PropValues": [
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "S_BorderColor0",
+              "PropValues": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_RoundRadius",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "S_DropShadowSize",
+              "PropValues": [
+                "0"
+              ],
+              "type": 2
+            },
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "9",
+                "1",
+                "4",
+                "2"
+              ],
+              "type": 1
+            }
+          ],
+          "ColorTL": "FF3A2E1E",
+          "ColorTR": "FF3A2E1E",
+          "ColorBL": "FF3A2E1E",
+          "ColorBR": "FF3A2E1E"
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialName": "T_Main",
+          "ForegroundColor": "FF008000",
+          "BackgroundColor": "FFC8C8C8"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/PslSelectSinglePlayer.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg",
+          "Position": {
+            "X": 5000.0,
+            "Y": 60000.0
+          },
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Cnt",
+          "Position": {}
+        }
+      ]
+    }
+  ]
+}

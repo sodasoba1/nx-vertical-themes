@@ -1,5 +1,5 @@
 {
-	"PatchName": "SwitchDeck-14.0.0.0 (All Apps)",
+	"PatchName": "SwitchDeck (All Apps)",
 	"AuthorName": "SodaSoba",
 	"TargetName": "Flaunch.szs",
 	"ID": "Generated_eabb447b-a8f6-4988-9f9e-62aedd0fd9b5",
@@ -7,6 +7,12 @@
 		{
 			"FileName": "blyt/FlcCntMain.bflyt",
 			"Patches": [
+				{
+					"PaneName": "L_BgNml",
+					"Position": {
+						"Z": 0
+					}
+				},
 				{
 					"PaneName": "N_Sort",
 					"Position": {

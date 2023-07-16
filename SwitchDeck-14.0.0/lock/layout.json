@@ -1,8 +1,8 @@
 {
-	"PatchName": "SwitchDeck for lock screen",
+	"PatchName": "SwitchDeck for lock screen(EthernetIconFix)",
 	"AuthorName": "SodaSoba",
 	"TargetName": "Entrance.szs",
-	"ID": "Generated_b8af7b9f-a78f-4417-9008-8d443e31a3a6",
+	"ID": "Generated_dd11a676-4e89-403f-a217-d8a4de73ca2a",
 	"Files": [
 		{
 			"FileName": "blyt/Cursor3.bflyt",
@@ -183,12 +183,20 @@
 					"Position": {
 						"X": -100.0,
 						"Y": 30.0
+					},
+					"Scale": {
+						"X": 8,
+						"Y": 0.2
 					}
 				},
 				{
 					"PaneName": "L_KeyA_01",
 					"Position": {
 						"Y": 30.0
+					},
+					"Scale": {
+						"X": 8,
+						"Y": 0.2
 					}
 				},
 				{
@@ -196,6 +204,10 @@
 					"Position": {
 						"X": 100.0,
 						"Y": 30.0
+					},
+					"Scale": {
+						"X": 8,
+						"Y": 0.2
 					}
 				}
 			]
@@ -607,15 +619,18 @@
 					"PaneName": "P_Plane",
 					"Position": {
 						"Y": -4.0
-					},
-					"Visible": true
+					}
 				},
 				{
 					"PaneName": "N_Signal",
 					"Position": {
 						"Y": -4.0
-					},
+					}
+				},
+				{
+					"PaneName": "P_Wifi",
 					"Rotation": {
+						"Y": -4.0,
 						"Z": -45.0
 					}
 				}

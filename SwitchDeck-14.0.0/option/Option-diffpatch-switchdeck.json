@@ -1,6 +1,7 @@
 {
 	"PatchName": "SwitchDeck - Option Patch",
 	"AuthorName": "SodaSoba",
+	"TargetName": "Option.szs",
 	"ID": "Generated_4811e624-4269-4861-be19-9d6e7a95e040",
 	"Files": [
 		{

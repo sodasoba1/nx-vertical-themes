@@ -1,0 +1,2079 @@
+{
+	"PatchName": "Lumia for lock screen",
+	"AuthorName": "SodaSoba",
+	"TargetName": "Entrance.szs",
+	"ID": "Lumia-lock",
+	"Files": [
+		{
+			"FileName": "blyt/EntBtnCenterNtf.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Root",
+					"Visible": false
+				},
+				{
+					"PaneName": "B_Hit",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BtnCnt",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_L",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_Padding",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_R",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_LRPadding",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Pict",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_00",
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"16",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"16",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00FF96",
+					"ColorBL": "FF00FF96"
+				},
+				{
+					"PaneName": "T_01",
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"90",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"90",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "N_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_IcoSub",
+					"Visible": false,
+					"ColorTL": "FF00FF96",
+					"ColorTR": "FF00FF96",
+					"ColorBL": "FF00FF96",
+					"ColorBR": "FF00FF96"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Size": {
+						"X": 300.0,
+						"Y": 400.0
+					}
+				},
+				{
+					"PaneName": "P_Main",
+					"Size": {
+						"X": 3.0,
+						"Y": 3.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorBR": "46FFFFFF"
+				},
+				{
+					"PaneName": "P_Grow",
+					"Size": {
+						"X": 3.0,
+						"Y": 3.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTR": "32FFFFFF"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"ForegroundColor": "008B008B",
+					"BackgroundColor": "FF82004B"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"ForegroundColor": "00D30094",
+					"BackgroundColor": "FFD355BA"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnLock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_00",
+					"Position": {
+						"Y": -54.0
+					},
+					"Scale": {
+						"X": 0.9,
+						"Y": 0.9
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"16",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"16",
+								"75",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "L_KeyA_00",
+					"Position": {
+						"X": -400.0,
+						"Y": 30.0
+					}
+				},
+				{
+					"PaneName": "L_KeyA_01",
+					"Position": {
+						"Y": 30.0
+					}
+				},
+				{
+					"PaneName": "L_KeyA_02",
+					"Position": {
+						"X": 400.0,
+						"Y": 30.0
+					}
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntMain.bflyt",
+			"Patches": [
+				{
+					"PaneName": "N_Root",
+					"Size": {
+						"X": 1280.0,
+						"Y": 720.0
+					}
+				},
+				{
+					"PaneName": "P_BgL",
+					"Position": {
+						"X": 5000.0,
+						"Y": 60000.0
+					},
+					"Size": {},
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BgR",
+					"Position": {
+						"X": 5000.0,
+						"Y": 60000.0
+					},
+					"Size": {
+						"X": 1280.0,
+						"Y": 720.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "N_CntR",
+					"Position": {
+						"Y": 14.0
+					}
+				},
+				{
+					"PaneName": "P_LocBgRMask",
+					"Size": {
+						"X": 1280.0,
+						"Y": 720.0
+					}
+				},
+				{
+					"PaneName": "P_LockBgR",
+					"Size": {
+						"X": 1280.0,
+						"Y": 720.0
+					}
+				},
+				{
+					"PaneName": "N_CntL",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_CntRMain",
+					"Position": {
+						"Y": -58.0
+					}
+				},
+				{
+					"PaneName": "N_AlarmCtrlResume",
+					"Position": {
+						"Y": -345.0
+					},
+					"Scale": {
+						"X": 0.8,
+						"Y": 0.8
+					}
+				},
+				{
+					"PaneName": "N_News",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_AlarmCtrlNtf",
+					"Position": {
+						"X": 180.0,
+						"Y": -26.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Lock",
+					"OriginX": 0
+				},
+				{
+					"PaneName": "L_BtnBack",
+					"Position": {
+						"X": 662.0,
+						"Y": -330.0
+					},
+					"Scale": {
+						"X": 1.1,
+						"Y": 1.1
+					}
+				},
+				{
+					"PaneName": "L_BtnResume",
+					"Scale": {
+						"X": 0.9,
+						"Y": 0.9
+					}
+				},
+				{
+					"PaneName": "N_BtnNewsNormal",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNewsListLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNtf",
+					"Position": {
+						"Y": 100.0
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "L_AlarmHud",
+					"Position": {
+						"X": 515.0,
+						"Y": 280.0
+					}
+				},
+				{
+					"PaneName": "L_AlarmGoEnt",
+					"Position": {
+						"X": 19.0,
+						"Y": -243.0
+					}
+				},
+				{
+					"PaneName": "L_AlarmBtnPagerR",
+					"Position": {}
+				},
+				{
+					"PaneName": "L_AlarmBtnPagerL",
+					"Position": {}
+				},
+				{
+					"PaneName": "N_Game",
+					"Position": {
+						"Y": 60.0
+					}
+				},
+				{
+					"PaneName": "N_SystemApplet",
+					"Size": {
+						"X": 170.0,
+						"Y": 170.0
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "N_ChildLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Hud",
+					"Position": {
+						"X": 705.0,
+						"Y": 320.0
+					}
+				},
+				{
+					"PaneName": "N_BtnNewsPriority",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BtnNewsSpecialIn",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnGame",
+					"Position": {
+						"Y": 20.0
+					},
+					"Size": {
+						"X": 217.6,
+						"Y": 326.4
+					}
+				},
+				{
+					"PaneName": "N_Home",
+					"Position": {}
+				},
+				{
+					"PaneName": "L_BtnSystemApplet",
+					"Position": {
+						"Y": 50.0
+					},
+					"Size": {
+						"X": 1.0,
+						"Y": 1.0
+					}
+				},
+				{
+					"PaneName": "L_ChildLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BtnNews_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BtnNews_01",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BtnNews_02",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNewsSpecial",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BalloonRecommendLock",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_AlarmBell",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_AlarmHeader",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_AlarmTime",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_AlarmTime",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_AlarmLine",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_AlarmBtnResume",
+					"Position": {
+						"Y": -190.0
+					}
+				},
+				{
+					"PaneName": "L_BtnHome",
+					"Position": {
+						"Y": 200.0
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "L_BtnNews_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_IconNew_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNews_01",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_IconNew_01",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_BtnNews_02",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_IconNew_02",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BalloonRecommend",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_AlarmGame",
+					"Position": {},
+					"Size": {
+						"X": 184.0,
+						"Y": 276.0
+					}
+				},
+				{
+					"PaneName": "P_BalloonRecommendTri",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_BalloonRecommend",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BalloonSizeMin",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BalloonTextSizeMax",
+					"Visible": false
+				},
+				{
+					"PaneName": "N_BalloonTextMargin",
+					"Visible": false
+				},
+				{
+					"PaneName": "T_BalloonRecommend",
+					"Visible": false
+				}
+			],
+			"AddGroups": [
+				{
+					"GroupName": "sodahidden_G_News",
+					"Panes": [
+						"N_BtnNewsSpecial",
+						"N_BtnNewsNormal"
+					]
+				},
+				{
+					"GroupName": "soda_G_Locknewisout",
+					"Panes": [
+						"L_IconNew_00",
+						"L_IconNew_01",
+						"N_BtnNewsPriority",
+						"L_IconNew_02",
+						"P_LocBgRMask",
+						"L_BtnNewsListLock",
+						"N_News"
+					]
+				},
+				{
+					"GroupName": "soda_G_Locknewisin",
+					"Panes": [
+						"L_IconNew_00",
+						"L_IconNew_01",
+						"N_BtnNewsPriority",
+						"L_IconNew_02",
+						"P_LocBgRMask",
+						"L_BtnNewsListLock",
+						"N_News"
+					]
+				},
+				{
+					"GroupName": "soda_G_AlarmOutIn",
+					"Panes": [
+						"N_AlarmCtrl",
+						"N_AlarmCtrlNtf",
+						"N_AlarmCtrlRGameSysApp",
+						"N_AlarmCtrlCntHud",
+						"N_AlarmCtrlResume",
+						"N_AlarmCtrlSystemApplet"
+					]
+				},
+				{
+					"GroupName": "soda_G_AlarmInOut",
+					"Panes": [
+						"N_AlarmCtrl",
+						"N_AlarmCtrlNtf",
+						"N_AlarmCtrlRGameSysApp",
+						"N_AlarmCtrlCntHud",
+						"N_AlarmCtrlResume",
+						"N_AlarmCtrlSystemApplet"
+					]
+				},
+				{
+					"GroupName": "soda_LockMainOut_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"N_LockSub",
+						"L_BtnResume",
+						"L_BtnHome",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "soda_entmainlockmain_in_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"N_LockSub",
+						"L_BtnResume",
+						"L_BtnHome",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "soda_home_out_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"L_BtnSystemAppletLock",
+						"N_LockSub",
+						"L_BtnResume",
+						"N_CntRMain",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "soda_home_in_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"L_BtnSystemAppletLock",
+						"N_LockSub",
+						"L_BtnResume",
+						"N_CntRMain",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "Soda_entmain_G_Home",
+					"Panes": [
+						"N_Home"
+					]
+				},
+				{
+					"GroupName": "soda_LockNewsListIn",
+					"Panes": [
+						"N_Lock",
+						"N_CntL",
+						"L_IconNew_00",
+						"L_IconNew_01",
+						"N_BtnNewsPriority",
+						"L_IconNew_02",
+						"N_CntR",
+						"N_CntHud",
+						"P_LocBgRMask",
+						"L_BtnNewsListLock",
+						"N_LockSub",
+						"L_BtnResume",
+						"L_BtnNtf",
+						"P_BgR",
+						"P_LockBgR"
+					]
+				},
+				{
+					"GroupName": "soda_G_AlarmOutIn",
+					"Panes": [
+						"N_AlarmCtrl",
+						"N_AlarmCtrlNtf",
+						"N_AlarmCtrlRGameSysApp",
+						"N_AlarmCtrlCntHud",
+						"N_AlarmCtrlResume",
+						"N_AlarmCtrlSystemApplet"
+					]
+				},
+				{
+					"GroupName": "soda_G_AlarmInOut",
+					"Panes": [
+						"N_AlarmCtrl",
+						"N_AlarmCtrlNtf",
+						"N_AlarmCtrlRGameSysApp",
+						"N_AlarmCtrlCntHud",
+						"N_AlarmCtrlResume",
+						"N_AlarmCtrlSystemApplet"
+					]
+				},
+				{
+					"GroupName": "soda_LockMainOut_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"N_LockSub",
+						"L_BtnResume",
+						"L_BtnHome",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "soda_entmainlockmain_in_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"N_LockSub",
+						"L_BtnResume",
+						"L_BtnHome",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "soda_home_out_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"L_BtnSystemAppletLock",
+						"N_LockSub",
+						"L_BtnResume",
+						"N_CntRMain",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "soda_home_in_G_Lock",
+					"Panes": [
+						"N_CntR",
+						"N_Lock",
+						"N_CntL",
+						"N_CntHud",
+						"L_BtnSystemAppletLock",
+						"N_LockSub",
+						"L_BtnResume",
+						"N_CntRMain",
+						"P_BgL"
+					]
+				},
+				{
+					"GroupName": "Soda_entmain_G_Home",
+					"Panes": [
+						"N_Home"
+					]
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Pict",
+					"ForegroundColor": "00000000",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"ForegroundColor": "00000000",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"ForegroundColor": "00000000"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"ForegroundColor": "00000000",
+					"BackgroundColor": "FFFFFFFF"
+				},
+				{
+					"MaterialName": "P_Pict",
+					"ForegroundColor": "00000000",
+					"BackgroundColor": "FFFFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnSpecialNtfLock.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnSpecialNtf.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnResumeSystemApplet.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnDecideKey",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "N_EffectDecide",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Size": {
+						"X": 10.0,
+						"Y": 10.1
+					}
+				},
+				{
+					"PaneName": "B_Hit",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_ImageEffect",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					],
+					"ColorTL": "FF00E196",
+					"ColorTR": "FF00E196",
+					"ColorBL": "FF00E196",
+					"ColorBR": "FF00E196"
+				},
+				{
+					"PaneName": "P_CircleEffect_00",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_CircleEffect_01",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Image",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_PictHome",
+					"Position": {},
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Size": {
+						"X": 184.0,
+						"Y": 168.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "P_PictShop",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF007EFF",
+					"ColorTR": "FF007EFF",
+					"ColorBL": "FF007EFF",
+					"ColorBR": "FF007EFF"
+				},
+				{
+					"PaneName": "P_PictPvr",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFFFA01A",
+					"ColorTR": "FFFFA01A",
+					"ColorBL": "FFFFA01A",
+					"ColorBR": "FFFFA01A"
+				},
+				{
+					"PaneName": "P_PictSet",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00D0FB",
+					"ColorTR": "FF00D0FB",
+					"ColorBL": "FF00D0FB",
+					"ColorBR": "FF00D0FB"
+				},
+				{
+					"PaneName": "P_PictCtrl",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": true,
+					"ColorTL": "FF989898",
+					"ColorTR": "FF989898",
+					"ColorBL": "FF989898",
+					"ColorBR": "FF989898"
+				},
+				{
+					"PaneName": "N_PictFlc",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Size": {
+						"X": 6.0,
+						"Y": 6.1
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "P_PictPcl",
+					"Scale": {
+						"X": 2.0,
+						"Y": 2.0
+					},
+					"Visible": true
+				},
+				{
+					"PaneName": "N_PictLHUB",
+					"Visible": true
+				},
+				{
+					"PaneName": "P_PictNews_00",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictNews_01",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_PictFlc_00",
+					"Size": {
+						"X": 35.0,
+						"Y": 35.1
+					}
+				},
+				{
+					"PaneName": "P_PictFlc_01",
+					"Size": {
+						"X": 35.0,
+						"Y": 35.1
+					}
+				},
+				{
+					"PaneName": "P_PictFlc_02",
+					"Size": {
+						"X": 35.0,
+						"Y": 35.1
+					}
+				},
+				{
+					"PaneName": "P_PictFlc_03",
+					"Size": {
+						"X": 35.0,
+						"Y": 35.1
+					}
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Circle_00",
+					"BackgroundColor": "00FFFFFF"
+				},
+				{
+					"MaterialName": "P_Circle_01",
+					"BackgroundColor": "00FFFFFF"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnCenter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Pict",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "T_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"16",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"16",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00FF96",
+					"ColorBL": "FF00FF96"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnLockIndicator.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Btn",
+					"Scale": {
+						"X": 19.0,
+						"Y": 1.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"22",
+								"22",
+								"1",
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"7",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"7",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "P_BtnNews",
+					"Scale": {
+						"X": 18.0,
+						"Y": 1.0
+					},
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"200"
+							],
+							"type": 2
+						}
+					]
+				}
+			],
+			"AddGroups": [
+				{
+					"GroupName": "sodas_lockkeyG__touchBtn",
+					"Panes": [
+						"P_Btn"
+					]
+				},
+				{
+					"GroupName": "sodas_lockkeyG_Btn",
+					"Panes": [
+						"P_Btn"
+					]
+				},
+				{
+					"GroupName": "sodas_lockkeyG__touchBtn",
+					"Panes": [
+						"P_Btn"
+					]
+				},
+				{
+					"GroupName": "sodas_lockkeyG_Btn",
+					"Panes": [
+						"P_Btn"
+					]
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_BtnNews",
+					"BackgroundColor": "00000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/HudSignal.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Plane",
+					"Position": {
+						"Y": -4.0
+					},
+					"ColorTL": "FF80C0FF",
+					"ColorTR": "FF80C0FF",
+					"ColorBL": "FF80C0FF",
+					"ColorBR": "FF80C0FF"
+				},
+				{
+					"PaneName": "N_Signal",
+					"Position": {
+						"Y": -4.0
+					}
+				},
+				{
+					"PaneName": "P_Wifi",
+					"Rotation": {
+						"Y": -4.0,
+						"Z": -45.0
+					},
+					"ColorTL": "FF00FF96",
+					"ColorTR": "FF00FF96",
+					"ColorBL": "FF00FF96",
+					"ColorBR": "FF00FF96"
+				},
+				{
+					"PaneName": "P_Local",
+					"ColorTL": "FFC0FFC0",
+					"ColorTR": "FFC0FFC0",
+					"ColorBL": "FFC0FFC0",
+					"ColorBR": "FFC0FFC0"
+				},
+				{
+					"PaneName": "P_WireLine",
+					"ColorTL": "FF00C000",
+					"ColorTR": "FF00C000",
+					"ColorBL": "FF00C000",
+					"ColorBR": "FF00C000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnNtf.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnResumeGame.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Size": {
+						"X": 217.6,
+						"Y": 326.4
+					}
+				},
+				{
+					"PaneName": "B_Hit",
+					"Size": {
+						"X": 312.0,
+						"Y": 412.0
+					}
+				},
+				{
+					"PaneName": "P_EffectDecide",
+					"Size": {
+						"X": 312.0,
+						"Y": 412.0
+					},
+					"ColorTL": "FF00E196",
+					"ColorTR": "FF00E196",
+					"ColorBL": "FF00E196",
+					"ColorBR": "FF00E196"
+				},
+				{
+					"PaneName": "P_Image",
+					"Size": {
+						"X": 217.6,
+						"Y": 326.4
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"5"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderDrawMode",
+							"PropValues": [
+								"1"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowColor",
+							"PropValues": [
+								"0.0823529",
+								"0.3176471",
+								"0.4313726",
+								"0.3137255"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"Size": {
+						"X": 227.6,
+						"Y": 336.4
+					}
+				},
+				{
+					"PaneName": "N_Promotion",
+					"Position": {
+						"Y": -250.0
+					}
+				},
+				{
+					"PaneName": "N_Suspend",
+					"Position": {
+						"Y": -220.0
+					},
+					"Size": {
+						"X": 1.0,
+						"Y": 1.0
+					},
+					"OriginY": 2,
+					"ParentOriginY": 2
+				},
+				{
+					"PaneName": "P_NoImage",
+					"Size": {
+						"X": 217.6,
+						"Y": 326.4
+					},
+					"Visible": false
+				},
+				{
+					"PaneName": "P_IcoQuestion",
+					"Visible": false
+				},
+				{
+					"PaneName": "L_Promotion",
+					"Position": {},
+					"Visible": false,
+					"ParentOriginY": 2
+				},
+				{
+					"PaneName": "P_Account_03",
+					"Position": {
+						"X": 78.0,
+						"Y": -330.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Account_02",
+					"Position": {
+						"X": 54.0,
+						"Y": -330.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Account_01",
+					"Position": {
+						"X": 28.0,
+						"Y": -330.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_Account_00",
+					"Position": {
+						"Y": -330.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowColor",
+							"PropValues": [
+								"1",
+								"1",
+								"1",
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"2"
+							],
+							"type": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/EntBtnBack.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"16",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"16",
+								"75",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00FF96",
+					"ColorBL": "FF00FF96"
+				},
+				{
+					"PaneName": "T_BtnB",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BatteryConsole.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Ico00",
+					"Rotation": {
+						"Z": 90.0
+					}
+				},
+				{
+					"PaneName": "P_BatBase",
+					"Rotation": {
+						"Z": 90.0
+					}
+				},
+				{
+					"PaneName": "N_GaugeNml",
+					"Rotation": {
+						"Z": 90.0
+					}
+				},
+				{
+					"PaneName": "N_GaugeOther",
+					"Rotation": {
+						"Z": 90.0
+					}
+				},
+				{
+					"PaneName": "P_Charge",
+					"Position": {
+						"X": 40.0
+					},
+					"Visible": true,
+					"UsdPatches": [
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"1"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowColor",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"255"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00FFE6",
+					"ColorTR": "FF00FFE6",
+					"ColorBL": "FF00FFE6",
+					"ColorBR": "FF00FFE6"
+				},
+				{
+					"PaneName": "P_GaugeNml",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"9"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00DC1E",
+					"ColorTR": "FF00DC1E",
+					"ColorBL": "FF00DC1E",
+					"ColorBR": "FF00DC1E"
+				}
+			]
+		}
+	],
+	"Anims": [
+		{
+			"FileName": "anim/EntBtnLockIndicator_DecideTouch.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":2,\"Name\":\"DecideKey\",\"ChildBinding\":0,\"Groups\":[\"sodas_lockkeyG__touchBtn\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ABcAAAAAAA==\"},\"pai1\":{\"FrameSize\":999,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Btn\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":10.0,\"Blend\":0.4},{\"Frame\":3.0,\"Value\":14.0,\"Blend\":0.7},{\"Frame\":6.0,\"Value\":18.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":9,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":10.0,\"Blend\":0.3},{\"Frame\":6.0,\"Value\":14.0,\"Blend\":0.7},{\"Frame\":9.0,\"Value\":18.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":5,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":2.0,\"Blend\":0.0},{\"Frame\":2.0,\"Value\":-4.0,\"Blend\":0.6},{\"Frame\":3.0,\"Value\":6.0,\"Blend\":0.4},{\"Frame\":4.0,\"Value\":-8.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":10.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":-12.0,\"Blend\":0.0},{\"Frame\":7.0,\"Value\":10.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":9.0,\"Value\":-6.0,\"Blend\":0.6},{\"Frame\":10.0,\"Value\":4.0,\"Blend\":0.4},{\"Frame\":11.0,\"Value\":-2.0,\"Blend\":0.6},{\"Frame\":12.0,\"Value\":4.0,\"Blend\":2.0},{\"Frame\":13.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":-4.0,\"Blend\":2.0},{\"Frame\":15.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":6.0,\"Blend\":0.0},{\"Frame\":17.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":18.0,\"Value\":-4.0,\"Blend\":2.0},{\"Frame\":19.0,\"Value\":2.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":21.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":22.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":23.0,\"Value\":-1.0,\"Blend\":0.0},{\"Frame\":24.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":25.0,\"Value\":2.0,\"Blend\":0.0},{\"Frame\":26.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":27.0,\"Value\":-2.0,\"Blend\":0.0},{\"Frame\":28.0,\"Value\":0.0,\"Blend\":0.3},{\"Frame\":29.0,\"Value\":1.0,\"Blend\":0.6},{\"Frame\":30.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnNews\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":14.0,\"Blend\":0.6666667},{\"Frame\":3.0,\"Value\":16.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":9,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":14.0,\"Blend\":0.6666667},{\"Frame\":3.0,\"Value\":16.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Btn\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLMC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":3,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":85.0},{\"Frame\":3.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnNews\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLMC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":3,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":85.0},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockMainOut.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":4,\"Name\":\"LockMainOut\",\"ChildBinding\":0,\"Groups\":[\"soda_LockMainOut_G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AFIAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_CntR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnHome\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":-390.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_AlarmIn.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":18,\"Name\":\"AlarmIn\",\"ChildBinding\":0,\"Groups\":[\"soda_G_AlarmInOut\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AB4AAAAAAA==\"},\"pai1\":{\"FrameSize\":6,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_AlarmCtrl\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlNtf\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlRGameSysApp\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlCntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlSystemApplet\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_AlarmOut.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":19,\"Name\":\"AlarmOut\",\"ChildBinding\":0,\"Groups\":[\"soda_G_AlarmOutIn\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADYAAAAAAA==\"},\"pai1\":{\"FrameSize\":20,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_AlarmCtrl\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":416.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":416.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlNtf\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlRGameSysApp\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":63.75},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlCntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlSystemApplet\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":255.0},{\"Frame\":1.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_AlarmCtrlResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":63.75},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_NewsType.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":25,\"Name\":\"NewsType\",\"ChildBinding\":0,\"Groups\":[\"sodahidden_G_News\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AAEAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_BtnNewsSpecial\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnNewsNormal\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockHomeIn.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":5,\"Name\":\"LockHomeIn\",\"ChildBinding\":0,\"Groups\":[\"soda_home_in_G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AG4AAAAAAA==\"},\"pai1\":{\"FrameSize\":10,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_CntR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-29.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntRMain\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_Home.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":17,\"Name\":\"Home\",\"ChildBinding\":0,\"Groups\":[\"Soda_entmain_G_Home\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ABUAAAAAAA==\"},\"pai1\":{\"FrameSize\":1,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Home\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.5},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockNewsListIn.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":7,\"Name\":\"LockNewsListIn\",\"ChildBinding\":0,\"Groups\":[\"soda_LockNewsListIn\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AKQAAAAAAA==\"},\"pai1\":{\"FrameSize\":14,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":-29.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_IconNew_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_IconNew_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnNewsPriority\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":9,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":172.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_IconNew_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LocBgRMask\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnNewsListLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnNtf\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LockBgR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":38.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LockBgR\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntBtnLockIndicator_DecideKey.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":0,\"Name\":\"DecideKey\",\"ChildBinding\":0,\"Groups\":[\"sodas_lockkeyG_Btn\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ABcAAAAAAA==\"},\"pai1\":{\"FrameSize\":999,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"P_Btn\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":10.0,\"Blend\":0.4},{\"Frame\":3.0,\"Value\":14.0,\"Blend\":0.7},{\"Frame\":6.0,\"Value\":18.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":9,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":10.0,\"Blend\":0.3},{\"Frame\":6.0,\"Value\":14.0,\"Blend\":0.7},{\"Frame\":9.0,\"Value\":18.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":5,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":2.0,\"Blend\":0.0},{\"Frame\":2.0,\"Value\":-4.0,\"Blend\":0.6},{\"Frame\":3.0,\"Value\":6.0,\"Blend\":0.4},{\"Frame\":4.0,\"Value\":-8.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":10.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":-12.0,\"Blend\":0.0},{\"Frame\":7.0,\"Value\":10.0,\"Blend\":0.0},{\"Frame\":8.0,\"Value\":8.0,\"Blend\":0.0},{\"Frame\":9.0,\"Value\":-6.0,\"Blend\":0.6},{\"Frame\":10.0,\"Value\":4.0,\"Blend\":0.4},{\"Frame\":11.0,\"Value\":-2.0,\"Blend\":0.6},{\"Frame\":12.0,\"Value\":4.0,\"Blend\":2.0},{\"Frame\":13.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":14.0,\"Value\":-4.0,\"Blend\":2.0},{\"Frame\":15.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":6.0,\"Blend\":0.0},{\"Frame\":17.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":18.0,\"Value\":-4.0,\"Blend\":2.0},{\"Frame\":19.0,\"Value\":2.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":21.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":22.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":23.0,\"Value\":-1.0,\"Blend\":0.0},{\"Frame\":24.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":25.0,\"Value\":2.0,\"Blend\":0.0},{\"Frame\":26.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":27.0,\"Value\":-2.0,\"Blend\":0.0},{\"Frame\":28.0,\"Value\":0.0,\"Blend\":0.3},{\"Frame\":29.0,\"Value\":1.0,\"Blend\":0.6},{\"Frame\":30.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnNews\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":14.0,\"Blend\":0.6666667},{\"Frame\":3.0,\"Value\":16.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":9,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":14.0,\"Blend\":0.6666667},{\"Frame\":3.0,\"Value\":16.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_Btn\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLMC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":3,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":85.0},{\"Frame\":3.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BtnNews\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLMC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":3,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":85.0},{\"Frame\":3.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_Out.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":24,\"Name\":\"Out\",\"ChildBinding\":182,\"Groups\":[\"G_Root\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"A+gDAAAAAA==\"},\"pai1\":{\"FrameSize\":50,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Root\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":6,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":7,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":20.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockHomeOut.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":6,\"Name\":\"LockHomeOut\",\"ChildBinding\":0,\"Groups\":[\"soda_home_out_G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"AIQAAAAAAA==\"},\"pai1\":{\"FrameSize\":12,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_CntR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnSystemAppletLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntRMain\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LockBgR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":30.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LocBgRMask\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":30.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":-390.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockNewsListOut.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":8,\"Name\":\"LockNewsListOut\",\"ChildBinding\":0,\"Groups\":[\"soda_G_Locknewisout\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ALoAAAAAAA==\"},\"pai1\":{\"FrameSize\":16,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":30.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":30.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":255.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_IconNew_00\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_IconNew_01\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_BtnNewsPriority\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":8,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":9,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_IconNew_02\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"},{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":12.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":10.0,\"Value\":0.0,\"Blend\":255.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LocBgRMask\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":18.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnNewsListLock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":255.0},{\"Frame\":6.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnNtf\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":10.0,\"Value\":0.0,\"Blend\":255.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":16.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVI\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":1,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":1.0,\"Blend\":0.0},{\"Frame\":44.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_LockBgR\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":1,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		},
+		{
+			"FileName": "anim/EntMain_LockMainIn.bflan",
+			"AnimJson": "{\"LittleEndian\":true,\"Version\":150994944,\"pat1\":{\"AnimationOrder\":3,\"Name\":\"LockMainIn\",\"ChildBinding\":0,\"Groups\":[\"soda_entmainlockmain_in_G_Lock\"],\"Unk_StartOfFile\":0,\"Unk_EndOfFile\":0,\"Unk_EndOfHeader\":\"ADwAAAAAAA==\"},\"pai1\":{\"FrameSize\":10,\"Flags\":0,\"Textures\":[],\"Entries\":[{\"Name\":\"N_CntR\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_Lock\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":51.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntL\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLPA\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]},{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_CntHud\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"N_LockSub\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0},{\"Frame\":10.0,\"Value\":255.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnResume\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"L_BtnHome\",\"Target\":0,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLVC\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":16,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":255.0,\"Blend\":0.0},{\"Frame\":1.0,\"Value\":0.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"},{\"Name\":\"P_BgL\",\"Target\":1,\"Tags\":[{\"Unknown\":0,\"TagType\":\"FLTS\",\"Entries\":[{\"Index\":0,\"AnimationTarget\":0,\"DataType\":2,\"KeyFrames\":[{\"Frame\":0.0,\"Value\":-390.0,\"Blend\":0.0},{\"Frame\":5.0,\"Value\":1.0,\"Blend\":0.0}],\"FLEUUnknownInt\":0,\"FLEUEntryName\":\"\"}]}],\"UnkwnownData\":\"\"}]}}"
+		}
+	]
+}
