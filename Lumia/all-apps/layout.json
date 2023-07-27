@@ -5,6 +5,61 @@
 	"ID": "Lumia-appapps",
 	"Files": [
 		{
+			"FileName": "blyt/Line_Root.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"UsdPatches": [
+						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.570796"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"5"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"15",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
 			"FileName": "blyt/AreaNmlL.bflyt",
 			"Patches": [
 				{
@@ -507,6 +562,534 @@
 						"L_Shop",
 						"T_Empty"
 					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "soda_z_outG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "soda_z_inG_Cnt",
+					"Panes": [
+						"NH_Root"
+					]
+				},
+				{
+					"GroupName": "G_Type-Shopdel",
+					"Panes": [
+						"L_Shop",
+						"T_Empty"
+					]
 				}
 			]
 		},
@@ -621,6 +1204,18 @@
 					]
 				},
 				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
 					"PaneName": "T_00",
 					"Position": {
 						"X": 21.0
@@ -657,7 +1252,7 @@
 						"Y": -5.0
 					},
 					"Size": {
-						"X": 37.0,
+						"X": 55.0,
 						"Y": 55.0
 					}
 				},
@@ -665,11 +1260,28 @@
 					"PaneName": "P_InnerCursor",
 					"UsdPatches": [
 						{
-							"PropName": "S_BorderSize",
+							"PropName": "C_W",
 							"PropValues": [
-								"4"
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
 						},
 						{
 							"PropName": "S_RoundRadius",
@@ -855,7 +1467,11 @@
 				{
 					"PaneName": "N_Btm",
 					"Position": {
-						"Y": -1120.0
+						"Y": -1160.0
+					},
+					"Size": {
+						"X": 10.0,
+						"Y": 120.0
 					}
 				},
 				{
@@ -867,6 +1483,230 @@
 				}
 			],
 			"AddGroups": [
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "ContentsOut_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
+				{
+					"GroupName": "grpContentsIn_G_CntInOut",
+					"Panes": [
+						"N_Header",
+						"NH_CntInOut"
+					]
+				},
 				{
 					"GroupName": "ContentsOut_G_CntInOut",
 					"Panes": [
@@ -1031,7 +1871,7 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"16",
+								"4",
 								"0",
 								"0",
 								"0"
@@ -1089,14 +1929,21 @@
 				{
 					"PaneName": "P_Main",
 					"Size": {
-						"X": 3.0,
-						"Y": 3.0
+						"X": 2.0,
+						"Y": 2.0
 					},
 					"UsdPatches": [
 						{
 							"PropName": "S_BorderVolume",
 							"PropValues": [
 								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"3"
 							],
 							"type": 2
 						},
@@ -1120,7 +1967,7 @@
 						{
 							"PropName": "S_DropShadowVolume",
 							"PropValues": [
-								"3"
+								"2"
 							],
 							"type": 2
 						},
@@ -1130,6 +1977,13 @@
 								"2"
 							],
 							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
 						},
 						{
 							"PropName": "S_DropShadowFunction",
@@ -1165,14 +2019,13 @@
 							],
 							"type": 1
 						}
-					],
-					"ColorBR": "46FFFFFF"
+					]
 				},
 				{
 					"PaneName": "P_Grow",
 					"Size": {
-						"X": 3.0,
-						"Y": 3.0
+						"X": 2.0,
+						"Y": 2.0
 					},
 					"UsdPatches": [
 						{
@@ -1183,9 +2036,16 @@
 							"type": 2
 						},
 						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_BorderColorSelect0",
 							"PropValues": [
-								"0"
+								"2"
 							],
 							"type": 1
 						},
@@ -1216,7 +2076,7 @@
 						{
 							"PropName": "S_DropShadowDistance",
 							"PropValues": [
-								"3"
+								"2"
 							],
 							"type": 2
 						},
@@ -1255,7 +2115,9 @@
 							"type": 1
 						}
 					],
-					"ColorTR": "32FFFFFF"
+					"ColorTL": "C8FFFFFF",
+					"ColorTR": "96FFFFFF",
+					"ColorBL": "64FFFFFF"
 				}
 			],
 			"Materials": [
@@ -1984,6 +2846,902 @@
 						"N_Root",
 						"N_HeaderPos"
 					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildsidefixedout_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildsidein_G_SideFixed",
+					"Panes": [
+						"N_SideFixed"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildout_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechildgrandchildin_G_Cnt",
+					"Panes": [
+						"N_CntPosCurrent",
+						"N_CntPosNext"
+					]
+				},
+				{
+					"GroupName": "basechild_childout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildchildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "basechildout_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
+				},
+				{
+					"GroupName": "basechildin_G_Root",
+					"Panes": [
+						"N_CntPos",
+						"N_Root",
+						"N_HeaderPos"
+					]
 				}
 			]
 		},
@@ -1997,7 +3755,7 @@
 					},
 					"Size": {
 						"X": 310.0,
-						"Y": 576.0
+						"Y": 720.0
 					}
 				},
 				{
@@ -2018,6 +3776,13 @@
 					"PaneName": "N_Nav",
 					"Position": {
 						"X": 490.0
+					}
+				},
+				{
+					"PaneName": "L_BtnSort",
+					"Position": {
+						"X": 604.0,
+						"Y": -50.0
 					}
 				},
 				{
@@ -2103,8 +3868,8 @@
 				{
 					"PaneName": "L_ScrollIndicator",
 					"Position": {
-						"X": 270.0,
-						"Y": -368.0
+						"X": 280.0,
+						"Y": -388.0
 					}
 				},
 				{
@@ -2222,12 +3987,6 @@
 					}
 				},
 				{
-					"PaneName": "N_Head_01",
-					"Position": {
-						"Y": -1185.0
-					}
-				},
-				{
 					"PaneName": "N_Btm",
 					"Position": {
 						"Y": -1645.0
@@ -2236,56 +3995,56 @@
 				{
 					"PaneName": "L_List_00",
 					"Size": {
-						"X": 842.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_01",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_02",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_03",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_04",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_05",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_06",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
 				{
 					"PaneName": "L_List_07",
 					"Size": {
-						"X": 722.0,
+						"X": 880.0,
 						"Y": 190.0
 					}
 				},
@@ -2320,7 +4079,7 @@
 					},
 					"Size": {
 						"X": 300.0,
-						"Y": 576.0
+						"Y": 720.0
 					}
 				},
 				{
@@ -2382,7 +4141,7 @@
 				{
 					"PaneName": "P_GradR",
 					"Position": {
-						"X": 232.0,
+						"X": 340.0,
 						"Y": -380.0
 					},
 					"Size": {
@@ -2833,6 +4592,326 @@
 						"N_NavPos",
 						"N_CntPos"
 					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetopsize_G_Size",
+					"Panes": [
+						"B_Nav"
+					]
+				},
+				{
+					"GroupName": "basetopchildout_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
+				},
+				{
+					"GroupName": "basetop_childin_G_Child",
+					"Panes": [
+						"N_NavPos",
+						"N_CntPos"
+					]
 				}
 			]
 		},
@@ -3005,6 +5084,7 @@
 				},
 				{
 					"PaneName": "P_Image",
+					"Visible": true,
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
@@ -3046,19 +5126,9 @@
 					"PaneName": "P_InnerCursor",
 					"UsdPatches": [
 						{
-							"PropName": "C_B",
-							"PropValues": [
-								"16",
-								"0",
-								"0",
-								"0"
-							],
-							"type": 1
-						},
-						{
 							"PropName": "C_W",
 							"PropValues": [
-								"16",
+								"2",
 								"0",
 								"0",
 								"0"
@@ -3075,24 +5145,24 @@
 						{
 							"PropName": "S_BorderSize",
 							"PropValues": [
-								"4"
+								"1"
 							],
 							"type": 2
 						},
 						{
 							"PropName": "S_BorderColorSelect0",
 							"PropValues": [
-								"16"
+								"2"
 							],
 							"type": 1
 						},
 						{
 							"PropName": "S_BorderColor0",
 							"PropValues": [
-								"16",
-								"1",
-								"1",
-								"1"
+								"2",
+								"2",
+								"2",
+								"255"
 							],
 							"type": 2
 						},
@@ -3103,11 +5173,7 @@
 							],
 							"type": 2
 						}
-					],
-					"ColorTL": "FF00FF96",
-					"ColorTR": "FF00FF96",
-					"ColorBL": "FF00FF96",
-					"ColorBR": "FF00FF96"
+					]
 				}
 			],
 			"Materials": [
@@ -3252,15 +5318,15 @@
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
-								"0"
+								"1"
 							],
 							"type": 2
 						}
 					],
-					"ColorTL": "FF00FF96",
-					"ColorTR": "FF00FF96",
-					"ColorBL": "FF00FF96",
-					"ColorBR": "FF00FF96"
+					"ColorTL": "FFFEFEFE",
+					"ColorTR": "FFFEFEFE",
+					"ColorBL": "FFFEFEFE",
+					"ColorBR": "FFFEFEFE"
 				}
 			],
 			"Materials": [
@@ -3374,7 +5440,7 @@
 				{
 					"PaneName": "N_Tip",
 					"Position": {
-						"Y": 155.0
+						"Y": 147.0
 					},
 					"Scale": {
 						"X": 0.8,
@@ -3400,6 +5466,18 @@
 					"Scale": {
 						"X": 0.8,
 						"Y": 0.8
+					}
+				},
+				{
+					"PaneName": "P_BtnSelectShdwR",
+					"Position": {
+						"Y": -71.0
+					}
+				},
+				{
+					"PaneName": "P_BtnSelectShdwL",
+					"Position": {
+						"Y": -71.0
 					}
 				},
 				{
@@ -3443,10 +5521,29 @@
 						"X": 111.9,
 						"Y": 167.9
 					},
-					"ColorTL": "FF00FF96",
-					"ColorTR": "FF00FF96",
-					"ColorBL": "FF00FF96",
-					"ColorBR": "FF00FF96"
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
 				},
 				{
 					"PaneName": "N_BtnFocusKey",
@@ -3472,13 +5569,75 @@
 					"PaneName": "P_CheckBaseOff",
 					"UsdPatches": [
 						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"255"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowColor",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"255"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
 						}
-					]
+					],
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
 				},
 				{
 					"PaneName": "P_CheckBaseOn",
@@ -3722,6 +5881,102 @@
 					"Panes": [
 						"N_Tip"
 					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Edit-Fix",
+					"Panes": [
+						"N_Tip"
+					]
 				}
 			]
 		},
@@ -3746,11 +6001,20 @@
 			"FileName": "blyt/FlcBalloon.bflyt",
 			"Patches": [
 				{
+					"PaneName": "N_Trans",
+					"Position": {
+						"X": -30.0
+					}
+				},
+				{
 					"PaneName": "P_Line",
 					"Visible": false
 				},
 				{
 					"PaneName": "P_Tip",
+					"Position": {
+						"Y": -3.0
+					},
 					"Scale": {
 						"X": 2.0,
 						"Y": 2.0
@@ -3792,15 +6056,91 @@
 				{
 					"PaneName": "P_TipShdw",
 					"Position": {
-						"Y": -5.0
+						"Y": -4.0
 					},
 					"Scale": {
-						"X": 2.0,
-						"Y": 2.0
+						"X": 1.5,
+						"Y": 1.5
 					},
 					"Size": {
 						"X": 22.0,
 						"Y": 13.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "N_Size",
+					"Position": {
+						"X": -30.0,
+						"Y": 6.0
+					},
+					"Size": {
+						"X": 332.0,
+						"Y": 36.0
+					}
+				},
+				{
+					"PaneName": "N_Card",
+					"Position": {
+						"X": -228.0
+					}
+				},
+				{
+					"PaneName": "N_Scissor",
+					"Size": {
+						"X": 332.0,
+						"Y": 36.0
+					}
+				},
+				{
+					"PaneName": "P_Card",
+					"Position": {
+						"X": 50.0,
+						"Y": 6.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_Reset",
+					"Size": {
+						"X": 332.0,
+						"Y": 36.0
 					}
 				},
 				{
@@ -3823,7 +6163,7 @@
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"9",
+								"4",
 								"1",
 								"4",
 								"2"
@@ -3833,18 +6173,14 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"9",
+								"4",
 								"1",
 								"4",
 								"2"
 							],
 							"type": 1
 						}
-					],
-					"ColorTL": "FF00FF96",
-					"ColorTR": "FF00FF96",
-					"ColorBL": "FF00FF96",
-					"ColorBR": "FF00FF96"
+					]
 				},
 				{
 					"PaneName": "T_Main",
@@ -3924,6 +6260,118 @@
 						"N_DirectionBase",
 						"N_Direction"
 					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
+				},
+				{
+					"GroupName": "G_Direction-txtfix",
+					"Panes": [
+						"N_DirectionBase",
+						"N_Direction"
+					]
 				}
 			]
 		},
@@ -3933,7 +6381,7 @@
 				{
 					"PaneName": "N_00",
 					"Size": {
-						"X": 12.0,
+						"X": 14.0,
 						"Y": 282.0
 					}
 				},
@@ -3987,7 +6435,7 @@
 				{
 					"PaneName": "N_00",
 					"Size": {
-						"X": 10.0,
+						"X": 12.0,
 						"Y": 184.0
 					}
 				},
@@ -4052,19 +6500,17 @@
 					}
 				},
 				{
-					"PaneName": "N_Shdw",
-					"Visible": false
-				},
-				{
 					"PaneName": "P_BtnSelectShdwR",
+					"Position": {
+						"Y": -130.0
+					},
 					"Visible": false
 				},
 				{
 					"PaneName": "P_BtnSelectShdwL",
-					"Visible": false
-				},
-				{
-					"PaneName": "P_BtnSelectShdw",
+					"Position": {
+						"Y": -130.0
+					},
 					"Visible": false
 				},
 				{
@@ -4140,20 +6586,20 @@
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						},
@@ -4178,6 +6624,12 @@
 					}
 				},
 				{
+					"PaneName": "N_SelectIn",
+					"Position": {
+						"Z": 10.0
+					}
+				},
+				{
 					"PaneName": "P_InnerCursor",
 					"Size": {
 						"X": 260.0,
@@ -4193,11 +6645,28 @@
 							"type": 2
 						},
 						{
-							"PropName": "S_BorderSize",
+							"PropName": "C_W",
 							"PropValues": [
-								"4"
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
 						}
 					],
 					"ColorTL": "FF00FF96",
@@ -4221,9 +6690,12 @@
 				},
 				{
 					"PaneName": "P_Bg",
+					"Position": {
+						"Y": -123.0
+					},
 					"Size": {
-						"X": 260.0,
-						"Y": 308.0
+						"X": 246.0,
+						"Y": 46.0
 					},
 					"UsdPatches": [
 						{
@@ -4247,21 +6719,18 @@
 							"type": 1
 						}
 					],
-					"ColorTL": "FF3A2E1E",
-					"ColorTR": "FF3A2E1E",
-					"ColorBL": "FF3A2E1E",
-					"ColorBR": "FF3A2E1E"
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
 				},
 				{
 					"PaneName": "P_BgIco",
-					"Position": {
-						"Y": 10.0
-					},
+					"Position": {},
 					"Size": {
 						"X": 260.0,
 						"Y": 308.0
 					},
-					"Visible": false,
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
@@ -4273,27 +6742,27 @@
 						{
 							"PropName": "S_DropShadowSize",
 							"PropValues": [
-								"0"
+								"2"
 							],
 							"type": 2
 						},
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						}
@@ -4313,7 +6782,7 @@
 				{
 					"PaneName": "P_ArwU",
 					"Position": {
-						"Y": 167.0
+						"Y": 169.0
 					},
 					"UsdPatches": [
 						{
@@ -4344,9 +6813,6 @@
 				},
 				{
 					"PaneName": "P_ArwR",
-					"Position": {
-						"X": 143.0
-					},
 					"UsdPatches": [
 						{
 							"PropName": "C_B",
@@ -4377,7 +6843,7 @@
 				{
 					"PaneName": "P_ArwD",
 					"Position": {
-						"Y": -167.0
+						"Y": -170.0
 					},
 					"UsdPatches": [
 						{
@@ -4408,9 +6874,6 @@
 				},
 				{
 					"PaneName": "P_ArwL",
-					"Position": {
-						"X": -143.0
-					},
 					"UsdPatches": [
 						{
 							"PropName": "C_B",
@@ -4439,7 +6902,14 @@
 					"ColorBR": "FF2DFFC8"
 				},
 				{
+					"PaneName": "T_Sub"
+				},
+				{
 					"PaneName": "P_Ico_00",
+					"Position": {
+						"X": 38.0,
+						"Y": 2.0
+					},
 					"Size": {
 						"X": 160.0,
 						"Y": 240.0
@@ -4447,6 +6917,10 @@
 				},
 				{
 					"PaneName": "P_IcoInv_00",
+					"Position": {
+						"X": 38.0,
+						"Y": 2.0
+					},
 					"Size": {
 						"X": 160.0,
 						"Y": 240.0
@@ -4455,6 +6929,10 @@
 				},
 				{
 					"PaneName": "P_Ico_01",
+					"Position": {
+						"X": 44.0,
+						"Y": 5.0
+					},
 					"Size": {
 						"X": 78.0,
 						"Y": 116.5
@@ -4462,6 +6940,10 @@
 				},
 				{
 					"PaneName": "P_IcoInv_01",
+					"Position": {
+						"X": 44.0,
+						"Y": 5.0
+					},
 					"Size": {
 						"X": 78.0,
 						"Y": 116.5
@@ -4470,6 +6952,10 @@
 				},
 				{
 					"PaneName": "P_Ico_02",
+					"Position": {
+						"X": 44.0,
+						"Y": -1.0
+					},
 					"Size": {
 						"X": 78.0,
 						"Y": 116.5
@@ -4477,6 +6963,10 @@
 				},
 				{
 					"PaneName": "P_IcoInv_02",
+					"Position": {
+						"X": 44.0,
+						"Y": -1.0
+					},
 					"Size": {
 						"X": 78.0,
 						"Y": 116.5
@@ -4492,7 +6982,11 @@
 						"X": 260.0,
 						"Y": 308.0
 					},
-					"Visible": true
+					"Visible": true,
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "FF3A2D1F"
 				},
 				{
 					"PaneName": "T_MainFixed",
@@ -4540,6 +7034,9 @@
 					"ColorTR": "FFFEFEFE",
 					"ColorBL": "FFFEFEFE",
 					"ColorBR": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_Main_00"
 				}
 			]
 		},
@@ -4631,7 +7128,8 @@
 				{
 					"PaneName": "N_Tip",
 					"Position": {
-						"Y": 155.0
+						"Y": 155.0,
+						"Z": 10.0
 					},
 					"Scale": {
 						"X": 0.8,
@@ -4676,6 +7174,10 @@
 				},
 				{
 					"PaneName": "P_IconGame",
+					"Scale": {
+						"X": 1.1,
+						"Y": 1.1
+					},
 					"Size": {
 						"X": 174.0,
 						"Y": 261.0
@@ -4716,6 +7218,13 @@
 					},
 					"UsdPatches": [
 						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
@@ -4725,8 +7234,8 @@
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"9",
-								"1",
+								"2",
+								"2",
 								"4",
 								"2"
 							],
@@ -4735,21 +7244,49 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"9",
-								"1",
+								"2",
+								"2",
 								"4",
 								"2"
 							],
 							"type": 1
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"255"
+							],
+							"type": 2
 						}
 					],
-					"ColorTL": "FFFEFEFE",
-					"ColorTR": "FFFEFEFE",
-					"ColorBL": "FFFEFEFE",
-					"ColorBR": "FFFEFEFE"
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
 				},
 				{
 					"PaneName": "N_BtnFocusKey",
+					"Scale": {
+						"X": 1.1,
+						"Y": 1.1
+					},
 					"Size": {
 						"X": 174.0,
 						"Y": 260.0
@@ -4767,6 +7304,30 @@
 					"Visible": true,
 					"UsdPatches": [
 						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"2"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
@@ -4779,6 +7340,30 @@
 					"PaneName": "P_Account_02",
 					"Visible": true,
 					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"2"
+							],
+							"type": 2
+						},
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
@@ -4793,6 +7378,30 @@
 					"Visible": true,
 					"UsdPatches": [
 						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"2"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
@@ -4805,6 +7414,30 @@
 					"PaneName": "P_Account_00",
 					"Visible": true,
 					"UsdPatches": [
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"255"
+							],
+							"type": 2
+						},
 						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
@@ -4843,16 +7476,92 @@
 								"0"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"4"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"255"
+							],
+							"type": 2
 						}
 					],
-					"ColorTL": "FF3A2D1E",
-					"ColorTR": "FF3A2D1E",
-					"ColorBL": "FF3A2D1E",
-					"ColorBR": "FF3A2D1E"
+					"ColorTL": "FF000000",
+					"ColorTR": "E6000000",
+					"ColorBL": "E6000000",
+					"ColorBR": "FF000000"
 				},
 				{
 					"PaneName": "T_Suspend",
 					"UsdPatches": [
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"1"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowColor",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"255"
+							],
+							"type": 1
+						},
 						{
 							"PropName": "C_B",
 							"PropValues": [
@@ -4867,9 +7576,9 @@
 							"PropName": "C_W",
 							"PropValues": [
 								"16",
-								"1",
-								"4",
-								"2"
+								"0",
+								"0",
+								"0"
 							],
 							"type": 1
 						}
@@ -4886,8 +7595,33 @@
 								"0"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Frame_02",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				},
+				{
+					"PaneName": "P_Frame_01",
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
 				},
 				{
 					"PaneName": "P_Frame_00",
@@ -4898,11 +7632,352 @@
 								"0"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"2",
+								"2",
+								"2",
+								"255"
+							],
+							"type": 2
 						}
-					]
+					],
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
 				}
 			],
 			"AddGroups": [
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_inActive",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "soda_zoomG_Active",
+					"Panes": [
+						"P_InnerCursor",
+						"N_Root"
+					]
+				},
+				{
+					"GroupName": "G_Direction-Fix",
+					"Panes": [
+						"N_Tip"
+					]
+				},
 				{
 					"GroupName": "soda_zoomG_inActive",
 					"Panes": [
@@ -5219,20 +8294,20 @@
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						}
@@ -5243,7 +8318,26 @@
 					"ColorBR": "FF5F503C"
 				},
 				{
-					"PaneName": "P_BtnFocusKeyInv"
+					"PaneName": "P_BtnFocusKeyInv",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
 				},
 				{
 					"PaneName": "P_BtnDecideKey",
@@ -5264,12 +8358,19 @@
 					"PaneName": "T_00",
 					"UsdPatches": [
 						{
+							"PropName": "C_Id",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
 							"PropName": "C_B",
 							"PropValues": [
 								"16",
 								"9",
-								"4",
-								"2"
+								"0",
+								"0"
 							],
 							"type": 1
 						},
@@ -5278,8 +8379,15 @@
 							"PropValues": [
 								"16",
 								"9",
-								"4",
-								"2"
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_TI",
+							"PropValues": [
+								"4"
 							],
 							"type": 1
 						}
@@ -5754,15 +8862,19 @@
 				{
 					"PaneName": "L_NavBg",
 					"Position": {
-						"Y": -310.0
+						"Y": -300.0
 					},
 					"Size": {
-						"X": 310.0,
+						"X": 300.0,
 						"Y": 576.0
 					}
 				},
 				{
 					"PaneName": "L_BtnDone",
+					"Position": {
+						"X": -35.0,
+						"Y": -520.0
+					},
 					"Size": {
 						"X": 174.0,
 						"Y": 54.0
@@ -6102,49 +9214,49 @@
 				{
 					"PaneName": "L_00",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				},
 				{
 					"PaneName": "L_01",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				},
 				{
 					"PaneName": "L_02",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				},
 				{
 					"PaneName": "L_03",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				},
 				{
 					"PaneName": "L_04",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				},
 				{
 					"PaneName": "L_05",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				},
 				{
 					"PaneName": "L_06",
 					"Size": {
-						"X": 1116.0,
+						"X": 1200.0,
 						"Y": 340.0
 					}
 				}

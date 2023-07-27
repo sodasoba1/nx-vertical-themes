@@ -1318,8 +1318,7 @@
 							],
 							"type": 1
 						}
-					],
-					"ColorBR": "46FFFFFF"
+					]
 				},
 				{
 					"PaneName": "P_Grow",
@@ -1408,7 +1407,9 @@
 							"type": 1
 						}
 					],
-					"ColorTR": "32FFFFFF"
+					"ColorTL": "C8FFFFFF",
+					"ColorTR": "96FFFFFF",
+					"ColorBL": "64FFFFFF"
 				}
 			],
 			"Materials": [

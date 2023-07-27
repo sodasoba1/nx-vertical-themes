@@ -1,7 +1,7 @@
 {
 	"PatchName": "Lumia for common.szs",
 	"AuthorName": "SodaSoba",
-	"ID": "Lumia-common",
+	"ID": "Lumia-common-v2",
 	"Files": [
 		{
 			"FileName": "blyt/Line_Root.bflyt",
@@ -191,13 +191,6 @@
 					"PaneName": "P_CardBase",
 					"UsdPatches": [
 						{
-							"PropName": "S_BorderSize",
-							"PropValues": [
-								"9"
-							],
-							"type": 2
-						},
-						{
 							"PropName": "S_BorderColor0",
 							"PropValues": [
 								"0",
@@ -228,9 +221,9 @@
 							"type": 1
 						},
 						{
-							"PropName": "S_DropShadowSize",
+							"PropName": "S_BorderSize",
 							"PropValues": [
-								"0"
+								"2"
 							],
 							"type": 2
 						},
@@ -240,6 +233,27 @@
 								"0"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
 						}
 					],
 					"ColorTL": "FF3A2E1E",
@@ -427,6 +441,13 @@
 					"PaneName": "P_Bg",
 					"UsdPatches": [
 						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
@@ -434,28 +455,25 @@
 							"type": 2
 						},
 						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_DropShadowSize",
 							"PropValues": [
-								"0"
+								"2"
 							],
 							"type": 2
 						},
 						{
-							"PropName": "S_BorderSize",
+							"PropName": "S_DropShadowFunction",
 							"PropValues": [
-								"9"
+								"4"
 							],
-							"type": 2
-						},
-						{
-							"PropName": "S_BorderColor0",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
-							"type": 2
+							"type": 1
 						},
 						{
 							"PropName": "C_B",
@@ -823,6 +841,43 @@
 				},
 				{
 					"PaneName": "L_Icon",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						}
+					],
 					"Size": {
 						"X": 170.0,
 						"Y": 255.0
@@ -1025,8 +1080,7 @@
 							],
 							"type": 1
 						}
-					],
-					"ColorBR": "46FFFFFF"
+					]
 				},
 				{
 					"PaneName": "P_Grow",
@@ -1115,7 +1169,9 @@
 							"type": 1
 						}
 					],
-					"ColorTR": "32FFFFFF"
+					"ColorTL": "C8FFFFFF",
+					"ColorTR": "96FFFFFF",
+					"ColorBL": "64FFFFFF"
 				}
 			],
 			"Materials": [
@@ -1904,6 +1960,13 @@
 					},
 					"UsdPatches": [
 						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
@@ -1911,28 +1974,25 @@
 							"type": 2
 						},
 						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_DropShadowSize",
 							"PropValues": [
-								"0"
+								"2"
 							],
 							"type": 2
 						},
 						{
-							"PropName": "S_BorderSize",
+							"PropName": "S_DropShadowFunction",
 							"PropValues": [
-								"9"
+								"4"
 							],
-							"type": 2
-						},
-						{
-							"PropName": "S_BorderColor0",
-							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
-							],
-							"type": 2
+							"type": 1
 						},
 						{
 							"PropName": "C_B",
@@ -2518,6 +2578,13 @@
 					},
 					"UsdPatches": [
 						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
 							"PropName": "S_RoundRadius",
 							"PropValues": [
 								"0"
@@ -2525,21 +2592,25 @@
 							"type": 2
 						},
 						{
-							"PropName": "S_BorderSize",
+							"PropName": "S_DropShadowAngle",
 							"PropValues": [
-								"9"
+								"1.3"
 							],
 							"type": 2
 						},
 						{
-							"PropName": "S_BorderColor0",
+							"PropName": "S_DropShadowSize",
 							"PropValues": [
-								"0",
-								"0",
-								"0",
-								"0"
+								"2"
 							],
 							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
 						},
 						{
 							"PropName": "C_B",
@@ -2560,13 +2631,6 @@
 								"2"
 							],
 							"type": 1
-						},
-						{
-							"PropName": "S_DropShadowSize",
-							"PropValues": [
-								"0"
-							],
-							"type": 2
 						}
 					]
 				},
@@ -2605,6 +2669,63 @@
 			"Patches": [
 				{
 					"PaneName": "P_Icon",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowAngle",
+							"PropValues": [
+								"1.3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"2"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					],
 					"Size": {
 						"X": 160.0,
 						"Y": 240.0

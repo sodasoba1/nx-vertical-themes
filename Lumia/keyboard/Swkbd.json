@@ -1,0 +1,1101 @@
+{
+	"PatchName": "Lumia for Keyboard Swkbd.szs",
+	"AuthorName": "SodaSoba",
+	"ID": "Generated_829ca337-7393-4899-9a53-6ce32d7530d9",
+	"Files": [
+		{
+			"FileName": "blyt/SwkbdBtnTransWord.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"2",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "T_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"88",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFFEFEFE"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BtnCenterCheck.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "T_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_CheckBaseOff",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"88",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_CheckBaseOn",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"7"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"16",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"16",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF00FF96",
+					"ColorTR": "FF00FF96",
+					"ColorBL": "FF00FF96",
+					"ColorBR": "FF00FF96"
+				},
+				{
+					"PaneName": "P_Check",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"2",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF000000",
+					"ColorTR": "FF000000",
+					"ColorBL": "FF000000",
+					"ColorBR": "FF000000"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/Cursor3.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Size": {
+						"X": 300.0,
+						"Y": 400.0
+					}
+				},
+				{
+					"PaneName": "P_Main",
+					"Size": {
+						"X": 3.0,
+						"Y": 3.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowFunction",
+							"PropValues": [
+								"4"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_Grow",
+					"Size": {
+						"X": 3.0,
+						"Y": 3.0
+					},
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowVolume",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowColorSelect",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_DropShadowDistance",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowKnockout",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "C8FFFFFF",
+					"ColorTR": "96FFFFFF",
+					"ColorBL": "64FFFFFF"
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_Main",
+					"ForegroundColor": "008B008B",
+					"BackgroundColor": "FF82004B"
+				},
+				{
+					"MaterialName": "P_Grow",
+					"ForegroundColor": "00D30094",
+					"BackgroundColor": "FFD355BA"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBaseTextAreaMulti.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Frame",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "FF3A2D1F"
+				},
+				{
+					"PaneName": "T_TextBoxMulti",
+					"ColorTL": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_Guide",
+					"ColorTL": "FFFEFEFE"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBtnTransArwCheck.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "IcoArwLineKuU",
+					"Visible": false,
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBaseTextAreaLine.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Line",
+					"Size": {
+						"X": 500.0,
+						"Y": 2.0
+					},
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF00FF96",
+					"ColorBR": "FF00FF96"
+				},
+				{
+					"PaneName": "T_Header",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"3"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"53",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"88",
+								"4",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FFFF8080",
+					"ColorBL": "FFFF8080"
+				},
+				{
+					"PaneName": "T_Explanation_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"90",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "T_TextBox_Short",
+					"ColorTL": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_TextBox_Long",
+					"ColorTL": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_TextBox_ShortSeparate",
+					"ColorTL": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_Guide_Short",
+					"ColorTL": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_Guide_Long",
+					"ColorTL": "FFFEFEFE"
+				},
+				{
+					"PaneName": "T_Guide_ShortSeparate",
+					"ColorTL": "FFFEFEFE"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdTranslationArea.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_TransBase",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"7"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF80FF80",
+					"ColorTR": "FFFFC0FF",
+					"ColorBL": "FF00C0C0",
+					"ColorBR": "FFFFFF80"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBtnBalloon2.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "T_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"108",
+								"83",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBtnTransColumn.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "P_Dummy",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdCounter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "T_TextLimit",
+					"ColorTL": "FFFEFEFE",
+					"ColorBL": "FFFEFEFE"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/BgMask.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Mask",
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdCaret.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_Cursor",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBgKeytop.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_InlineMarginBtm",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BaseF",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "FF3A2D1F"
+				},
+				{
+					"PaneName": "P_FShdwU",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_InlineMarginBtmShdwL",
+					"ColorTL": "003A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "003A2D1F",
+					"ColorBR": "FF3A2D1F"
+				},
+				{
+					"PaneName": "P_InlineMarginBtmShdwR",
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "003A2D1F",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "003A2D1F"
+				},
+				{
+					"PaneName": "P_InlineMarginBtmD",
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "003A2D1F",
+					"ColorBR": "003A2D1F"
+				},
+				{
+					"PaneName": "P_FShdwL",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_FShdwR",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_FShdwD",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BaseD",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "FF3A2D1F"
+				},
+				{
+					"PaneName": "P_BaseDMargin",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF3A2D1F",
+					"ColorTR": "FF3A2D1F",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "FF3A2D1F"
+				},
+				{
+					"PaneName": "P_BaseU",
+					"Visible": false
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBalloonInline.bflyt",
+			"Patches": [
+				{
+					"PaneName": "P_BalloonBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "P_Tri",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderSize",
+							"PropValues": [
+								"7"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColor0",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_DropShadowSize",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"0"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"9",
+								"1",
+								"4",
+								"2"
+							],
+							"type": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdTranswordMlt.bflyt",
+			"Patches": [],
+			"Materials": [
+				{
+					"MaterialName": "IcoArwLineKuU",
+					"BackgroundColor": "FFFF8080"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/LineFooter.bflyt",
+			"Patches": [
+				{
+					"PaneName": "RootPane",
+					"Visible": false
+				},
+				{
+					"PaneName": "P_Line",
+					"Visible": false
+				}
+			]
+		}
+	]
+}
