@@ -1,7 +1,7 @@
 {
-	"PatchName": "Lumia for Keyboard Swkbd.szs",
+	"PatchName": "Lumia for Keyboard SWKBD.szs",
 	"AuthorName": "SodaSoba",
-	"ID": "Generated_829ca337-7393-4899-9a53-6ce32d7530d9",
+	"ID": "lumia-SWKBD-v0.5",
 	"Files": [
 		{
 			"FileName": "blyt/SwkbdBtnTransWord.bflyt",
@@ -23,7 +23,7 @@
 							"PropName": "C_W",
 							"PropValues": [
 								"4",
-								"2",
+								"4",
 								"0",
 								"0"
 							],
@@ -41,7 +41,7 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"88",
+								"90",
 								"0",
 								"0",
 								"0"
@@ -476,7 +476,7 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"4",
+								"3",
 								"0",
 								"0",
 								"0"
@@ -604,6 +604,26 @@
 				{
 					"PaneName": "T_Guide_ShortSeparate",
 					"ColorTL": "FFFEFEFE"
+				}
+			]
+		},
+		{
+			"FileName": "blyt/SwkbdBtnTransArwNml.bflyt",
+			"Patches": [
+				{
+					"PaneName": "IcoArwLineKuU",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
 				}
 			]
 		},
@@ -967,6 +987,18 @@
 				{
 					"PaneName": "P_BaseU",
 					"Visible": false
+				},
+				{
+					"PaneName": "L_Line_00",
+					"Size": {
+						"X": 1220.0
+					}
+				}
+			],
+			"Materials": [
+				{
+					"MaterialName": "P_InlineMarginBtm",
+					"BackgroundColor": "00FFFFFF"
 				}
 			]
 		},
@@ -1071,6 +1103,14 @@
 							"type": 1
 						}
 					]
+				},
+				{
+					"PaneName": "P_TipShdw",
+					"Visible": false,
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF3A2D1F",
+					"ColorBR": "FF3A2D1F"
 				}
 			]
 		},

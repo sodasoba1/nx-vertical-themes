@@ -1,9 +1,9 @@
 {
-	"PatchName": "Lumia for Keyboard Sign.szs",
+	"PatchName": "Lumia for Keyboard qwerty.szs",
 	"AuthorName": "SodaSoba",
-	"ID": "Generated_69a6f7f7-c150-4cdc-8812-bea772a4c75c",
+	"ID": "lumia-qwerty-v0.5",
 	"Files": [
-		{
+	{
 			"FileName": "blyt/Cursor3.bflyt",
 			"Patches": [
 				{
@@ -203,7 +203,7 @@
 			"FileName": "blyt/SwkbdBtnEnter.bflyt",
 			"Patches": [
 				{
-					"PaneName": "N_BtnFocusKey",
+					"PaneName": "P_BtnBaseInv",
 					"UsdPatches": [
 						{
 							"PropName": "S_RoundRadius",
@@ -215,13 +215,105 @@
 					]
 				},
 				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnFocus",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
 					"PaneName": "T_00",
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
 							"PropValues": [
 								"4",
-								"71",
+								"4",
 								"0",
 								"0"
 							],
@@ -235,8 +327,8 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"15",
-								"15",
+								"4",
+								"4",
 								"0",
 								"0"
 							],
@@ -251,7 +343,7 @@
 							"PropName": "C_W",
 							"PropValues": [
 								"4",
-								"71",
+								"4",
 								"0",
 								"0"
 							],
@@ -272,12 +364,55 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"56",
+								"3",
 								"0",
 								"0",
 								"0"
 							],
 							"type": 1
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnBase_01",
+					"UsdPatches": [
+						{
+							"PropName": "S_RoundRadius",
+							"PropValues": [
+								"10"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"55",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
 						},
 						{
 							"PropName": "S_BorderColorSelect0",
@@ -294,13 +429,59 @@
 			"FileName": "blyt/SwkbdBtnBS.bflyt",
 			"Patches": [
 				{
+					"PaneName": "P_BtnBaseInv",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF493C2D",
+					"ColorTR": "FF493C2D",
+					"ColorBL": "FF493C2D",
+					"ColorBR": "FF493C2D"
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"41",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
 					"PaneName": "T_00",
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
 							"PropValues": [
 								"82",
-								"56",
+								"88",
 								"0",
 								"0"
 							],
@@ -315,7 +496,7 @@
 							"PropName": "C_W",
 							"PropValues": [
 								"82",
-								"56",
+								"88",
 								"0",
 								"0"
 							],
@@ -325,10 +506,36 @@
 				},
 				{
 					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderVolume",
+							"PropValues": [
+								"1"
+							],
+							"type": 2
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					],
 					"ColorTL": "FF5F503C",
-					"ColorTR": "FF3A2D1F",
+					"ColorTR": "FF5F503C",
 					"ColorBL": "FF5F503C",
-					"ColorBR": "FF3A2D1F"
+					"ColorBR": "FF5F503C"
 				},
 				{
 					"PaneName": "T_Key",
@@ -349,10 +556,20 @@
 					"PaneName": "P_Key",
 					"UsdPatches": [
 						{
+							"PropName": "C_B",
+							"PropValues": [
+								"74",
+								"74",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
 							"PropName": "C_W",
 							"PropValues": [
-								"4",
-								"81",
+								"74",
+								"74",
 								"0",
 								"0"
 							],
@@ -371,7 +588,7 @@
 						{
 							"PropName": "S_BorderSize",
 							"PropValues": [
-								"7"
+								"2"
 							],
 							"type": 2
 						},
@@ -409,20 +626,20 @@
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						},
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"9",
-								"1",
 								"4",
-								"2"
+								"4",
+								"0",
+								"0"
 							],
 							"type": 1
 						}
@@ -431,6 +648,36 @@
 					"ColorTR": "FF5F503C",
 					"ColorBL": "FF5F503C",
 					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
 				},
 				{
 					"PaneName": "P_BtnFocus",
@@ -450,6 +697,21 @@
 					"ColorTR": "FF5F503C",
 					"ColorBL": "FF5F503C",
 					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "T_00",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
 				}
 			]
 		},
@@ -469,7 +731,77 @@
 							],
 							"type": 1
 						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "P_BtnDecideKey",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
 					]
+				},
+				{
+					"PaneName": "P_BtnTouch",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnFocus",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF493C2D",
+					"ColorTR": "FF493C2D",
+					"ColorBL": "FF493C2D",
+					"ColorBR": "FF493C2D"
 				},
 				{
 					"PaneName": "T_00",
@@ -503,7 +835,11 @@
 							],
 							"type": 1
 						}
-					]
+					],
+					"ColorTL": "FF00FF96",
+					"ColorTR": "FF00FF96",
+					"ColorBL": "FF00FF96",
+					"ColorBR": "FF00FF96"
 				}
 			]
 		},
@@ -511,13 +847,120 @@
 			"FileName": "blyt/SwkbdBtnOptRpt.bflyt",
 			"Patches": [
 				{
+					"PaneName": "P_BtnBase",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF5F503C",
+					"ColorTR": "FF5F503C",
+					"ColorBL": "FF5F503C",
+					"ColorBR": "FF5F503C"
+				},
+				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "P_BtnFocus",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					],
+					"ColorTL": "FF493C2D",
+					"ColorTR": "FF493C2D",
+					"ColorBL": "FF493C2D",
+					"ColorBR": "FF493C2D"
+				},
+				{
+					"PaneName": "P_Dummy",
+					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
 					"PaneName": "T_00",
 					"UsdPatches": [
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"71",
+								"4",
 								"88",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
+					"PaneName": "T_Key",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
+								"0",
 								"0",
 								"0"
 							],
@@ -531,7 +974,17 @@
 						{
 							"PropName": "C_B",
 							"PropValues": [
-								"71",
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"4",
 								"0",
 								"0",
 								"0"
@@ -565,8 +1018,30 @@
 					"ColorBR": "FF5F503C"
 				},
 				{
+					"PaneName": "N_BtnFocusKey",
+					"UsdPatches": [
+						{
+							"PropName": "S_BorderColorSelect0",
+							"PropValues": [
+								"2"
+							],
+							"type": 1
+						}
+					]
+				},
+				{
 					"PaneName": "P_BtnFocus",
 					"UsdPatches": [
+						{
+							"PropName": "C_B",
+							"PropValues": [
+								"4",
+								"0",
+								"0",
+								"0"
+							],
+							"type": 1
+						},
 						{
 							"PropName": "C_W",
 							"PropValues": [
@@ -585,10 +1060,29 @@
 							"type": 1
 						}
 					],
-					"ColorTL": "FF5F503C",
-					"ColorTR": "FF5F503C",
-					"ColorBL": "FF5F503C",
-					"ColorBR": "FF5F503C"
+					"ColorTL": "FF493C2D",
+					"ColorTR": "FF493C2D",
+					"ColorBL": "FF493C2D",
+					"ColorBR": "FF493C2D"
+				},
+				{
+					"PaneName": "N_Image",
+					"Visible": true
+				},
+				{
+					"PaneName": "P_Image",
+					"UsdPatches": [
+						{
+							"PropName": "C_W",
+							"PropValues": [
+								"3",
+								"4",
+								"0",
+								"0"
+							],
+							"type": 1
+						}
+					]
 				},
 				{
 					"PaneName": "T_00",
@@ -596,7 +1090,7 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"88",
+								"89",
 								"0",
 								"0",
 								"0"
@@ -611,7 +1105,7 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"88",
+								"89",
 								"0",
 								"0",
 								"0"
@@ -626,7 +1120,7 @@
 						{
 							"PropName": "C_W",
 							"PropValues": [
-								"88",
+								"89",
 								"0",
 								"0",
 								"0"
