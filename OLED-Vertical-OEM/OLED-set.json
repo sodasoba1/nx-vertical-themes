@@ -1,0 +1,110 @@
+{
+  "PatchName": "diffPatch for settings applet",
+  "AuthorName": "autoDiff",
+  "TargetName": "Set.szs",
+  "ID": "Generated_7db6b9b6-f2f4-4b98-8dab-bb7115fd8525",
+  "Files": [
+    {
+      "FileName": "blyt/SetBtnListData.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Icon",
+          "Size": {
+            "X": 67.0,
+            "Y": 100.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/SetCntDataMngScan.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_ResultBg",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/BgNml.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg_00",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "5",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/UrlHelp.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg",
+          "Visible": false
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialName": "P_Qr",
+          "ForegroundColor": "FFC8C8C8",
+          "BackgroundColor": "FF000000"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/SetCntAuth.bflyt",
+      "Patches": [],
+      "Materials": [
+        {
+          "MaterialName": "P_Auth",
+          "ForegroundColor": "00FFFFFF",
+          "BackgroundColor": "FF000000"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/SetDCntSup.bflyt",
+      "Patches": [],
+      "Materials": [
+        {
+          "MaterialName": "T_00",
+          "ForegroundColor": "FFFFFFFF",
+          "BackgroundColor": "FF000000"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/TextH1Ex.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_DataIcon",
+          "Size": {
+            "X": 60.0,
+            "Y": 90.0
+          }
+        }
+      ]
+    }
+  ]
+}

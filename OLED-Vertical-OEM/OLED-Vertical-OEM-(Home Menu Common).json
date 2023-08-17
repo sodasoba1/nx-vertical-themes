@@ -1,0 +1,223 @@
+{
+  "PatchName": "diffPatch",
+  "AuthorName": "autoDiff",
+  "ID": "Generated_8817c98a-257d-4eda-8649-4e5e62df786e",
+  "Files": [
+    {
+      "FileName": "blyt/DCntIconLauncherText.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_01",
+          "Position": {
+            "Y": -250.0
+          }
+        },
+        {
+          "PaneName": "L_Icon",
+          "Size": {
+            "X": 170.0,
+            "Y": 255.0
+          }
+        },
+        {
+          "PaneName": "T_00",
+          "Size": {
+            "X": 450.0,
+            "Y": 255.0
+          }
+        },
+        {
+          "PaneName": "N_AccountIcon_00",
+          "Position": {
+            "X": -240.0,
+            "Y": -196.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/SystemAppletFader.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Base",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/BgNml.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg_00",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "7",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/SystemColorFader.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Capture",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "4",
+                "2",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/DCntImageText.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_00",
+          "Size": {
+            "X": 128.0,
+            "Y": 192.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/DBtmBaseNml.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Base",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/FooterAll.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg_Gray",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/DHdrSoft.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Soft",
+          "Position": {
+            "X": -312.0,
+            "Y": -47.0
+          },
+          "Size": {
+            "X": 33.0,
+            "Y": 50.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/IconGame.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Icon",
+          "Scale": {
+            "X": 0.9,
+            "Y": 0.9
+          },
+          "Size": {
+            "X": 160.0,
+            "Y": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/DBaseNml.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Base",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/FooterBtn.bflyt",
+      "Patches": [
+        {
+          "PaneName": "T_Key",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "42",
+                "71",
+                "4",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

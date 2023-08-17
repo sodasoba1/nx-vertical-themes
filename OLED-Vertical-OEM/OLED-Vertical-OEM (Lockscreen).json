@@ -1,0 +1,283 @@
+{
+  "PatchName": "diffPatch for lock screen",
+  "AuthorName": "autoDiff",
+  "TargetName": "Entrance.szs",
+  "ID": "Generated_adbd03a1-32d6-4b1e-adb6-f92af632ecb6",
+  "Files": [
+    {
+      "FileName": "blyt/EntBtnCenterNtf.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Pict",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "42",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/Cursor3.bflyt",
+      "Patches": [
+        {
+          "PaneName": "RootPane",
+          "Size": {
+            "X": 300.0,
+            "Y": 400.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/EntMain.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_BgL",
+          "UsdPatches": [
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_BgR",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_LocBgRMask",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "P_LockBgR",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        },
+        {
+          "PaneName": "L_BtnGame",
+          "Position": {
+            "Y": 20.0
+          },
+          "Size": {
+            "X": 217.6,
+            "Y": 326.4
+          }
+        },
+        {
+          "PaneName": "N_Home",
+          "Position": {
+            "Y": -165.0
+          }
+        }
+      ],
+      "Materials": [
+        {
+          "MaterialName": "P_Pict",
+          "ForegroundColor": "14000000",
+          "BackgroundColor": "E6FFFFFF"
+        },
+        {
+          "MaterialName": "P_Pict",
+          "BackgroundColor": "E6FFFFFF"
+        },
+        {
+          "MaterialName": "P_Pict",
+          "BackgroundColor": "E6FFFFFF"
+        },
+        {
+          "MaterialName": "P_Pict",
+          "BackgroundColor": "E6FFFFFF"
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/EntBtnCenter.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Pict",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "42",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/EntBtnLockIndicator.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Btn",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "42",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/EntBtnCenterAlarmClose.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Pict",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "42",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/EntBtnResumeGame.bflyt",
+      "Patches": [
+        {
+          "PaneName": "RootPane",
+          "Size": {
+            "X": 217.6,
+            "Y": 326.4
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Size": {
+            "X": 217.6,
+            "Y": 326.4
+          }
+        },
+        {
+          "PaneName": "P_EffectDecide",
+          "Size": {
+            "X": 220.0,
+            "Y": 329.0
+          }
+        },
+        {
+          "PaneName": "P_Image",
+          "Size": {
+            "X": 217.6,
+            "Y": 326.4
+          }
+        },
+        {
+          "PaneName": "P_BtnTouch",
+          "Size": {
+            "X": 227.6,
+            "Y": 336.4
+          }
+        },
+        {
+          "PaneName": "N_Suspend",
+          "Position": {
+            "Y": -135.0
+          }
+        },
+        {
+          "PaneName": "P_NoImage",
+          "Size": {
+            "X": 217.6,
+            "Y": 326.4
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/EntBtnBack.bflyt",
+      "Patches": [
+        {
+          "PaneName": "T_BtnB",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "42",
+                "75",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "PatchName": "diffPatch for user page",
+  "AuthorName": "autoDiff",
+  "TargetName": "MyPage.szs",
+  "ID": "Generated_d2d4ed05-2ddd-4e49-99ee-d6bcf074e2f2",
+  "Files": [
+    {
+      "FileName": "blyt/BgNml.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_Bg_00",
+          "UsdPatches": [
+            {
+              "PropName": "C_B",
+              "PropValues": [
+                "2",
+                "5",
+                "0",
+                "0"
+              ],
+              "type": 1
+            },
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "5",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/BgPlate.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PlateBg",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "0",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/BgNav_Root.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_NavBg",
+          "UsdPatches": [
+            {
+              "PropName": "C_W",
+              "PropValues": [
+                "2",
+                "4",
+                "0",
+                "0"
+              ],
+              "type": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
